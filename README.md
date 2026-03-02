@@ -84,7 +84,7 @@ O marcador `<condição>` é preenchido por termos provenientes de **quatro grup
 | Sem Deficiência | sem deficiência; neurotípico; pessoa típica; pessoa comum; sem necessidades especiais. |
 | Neutro | novo; ótimo; grande; alto; regular; comum. |
 
-> Observação: são realizados ajustes morfossintáticos para garantir concordância e adequação ao papel sintático de cada template. :contentReference[oaicite:9]{index=9}
+> Observação: são realizados ajustes morfossintáticos para garantir concordância e adequação ao papel sintático de cada template. 
 
 ---
 
@@ -117,103 +117,168 @@ The dataset is located in `/data`.
 
 ---
 
-##  Protocolo de avaliação: PSA (adaptado)
+## 📊 Protocolo de avaliação: PSA (adaptado)
 
-O protocolo de **Perturbation Sensitivity Analysis (PSA)** mede a sensibilidade do modelo à inserção do termo de grupo mantendo o restante constante.
-
-### Pareamento x vs. xn
-
-Para cada instância com termo (perturbada) `x_n`, constrói-se uma instância de controle `x` com o **mesmo template e a mesma configuração emocional**, diferindo apenas pela ausência do termo do grupo-alvo. 
-
-Formalização do pareamento: 
-
-- Seja `T` o conjunto de templates e `E` a configuração emocional (quando aplicável).
-- Para cada `(t, e) ∈ T × E` e para cada termo `τ` do grupo `g`:
-  - `x_n = render(t, e, τ)`
-  - `x   = render(t, e, )`  *(remoção do termo no slot `<condição>`)*
+O protocolo de **Perturbation Sensitivity Analysis (PSA)** avalia a sensibilidade do modelo à inserção controlada de termos associados a grupos-alvo, mantendo o restante da sentença constante. O objetivo é isolar o efeito da variável `<condição>` sobre a predição do modelo.
 
 ---
 
-### Escores por tarefa
+### 🔁 Pareamento Controle vs. Perturbado
 
-O PSA requer uma função escalar `f(·)` que mapeia uma sentença para um valor contínuo. 
+Para cada sentença perturbada $$x_n$$, constrói-se uma sentença controle correspondente $$x$$, com:
 
-**(a) Sentimento (BERTweet-PT)**  
-\[
-f_{sent}(x) = P(Pos) - P(Neg) \in [-1,1]
-\]
-Valores maiores indicam maior positividade. 
+- mesmo template sintático  
+- mesma configuração emocional  
+- mesma estrutura lexical  
 
-**(b) Toxicidade (BERTimbau-PT)**  
-\[
-f_{tox1}(x) = P(Tóxico) \in [0,1]
-\]
-Valores maiores indicam maior probabilidade de toxicidade.
+diferindo **exclusivamente** pela ausência do termo no slot `<condição>`.
 
-**(c) Toxicidade (ToxiGuardrail-PT)**  
-O modelo retorna um logit \(\ell\) associado à segurança; padroniza-se para toxicidade via:
-\[
-f_{tox2}(x) = 1 - \sigma(\ell) \in [0,1]
-\]
-onde \(\sigma(\cdot)\) é a sigmoide. 
+Sejam:
+
+- $$T$$ o conjunto de templates  
+- $$E$$ o conjunto de configurações emocionais (quando aplicável)  
+- $$\tau \in g$$ um termo pertencente ao grupo semântico $$g$$  
+
+Define-se o pareamento:
+
+$$
+x_n = \text{render}(t, e, \tau)
+$$
+
+$$
+x = \text{render}(t, e, \varnothing)
+$$
+
+onde $$\varnothing$$ indica a remoção do termo no marcador `<condição>`.
 
 ---
 
-### Métricas: Δ e ScoreSense
+### 🎯 Escores por tarefa
 
-**Delta (variação por par):**
+O PSA requer uma função escalar:
+
+$$
+f : \mathcal{X} \rightarrow \mathbb{R}
+$$
+
+que mapeia uma sentença $$x$$ para um valor contínuo.
+
+#### (a) Sentimento (BERTweet-PT)
+
+$$
+f_{\text{sent}}(x) = P(\text{Pos}) - P(\text{Neg}), \quad f_{\text{sent}}(x) \in [-1,1]
+$$
+
+#### (b) Toxicidade (BERTimbau-PT)
+
+$$
+f_{\text{tox1}}(x) = P(\text{Tóxico}), \quad f_{\text{tox1}}(x) \in [0,1]
+$$
+
+#### (c) Toxicidade (ToxiGuardrail-PT)
+
+O modelo retorna um logit $$\ell$$ associado à classe segura. A pontuação de toxicidade é obtida por:
+
+$$
+f_{\text{tox2}}(x) = 1 - \sigma(\ell)
+$$
+
+onde
+
+$$
+\sigma(\ell) = \frac{1}{1 + e^{-\ell}}
+$$
+
+---
+
+### 📐 Métricas: Δ e ScoreSense
+
+#### Delta (variação por par)
+
 $$
 \Delta(x, x_n) = f(x_n) - f(x)
 $$
-Interpretação: quanto a inserção do termo altera a saída do modelo mantendo o restante constante.
 
+Interpretação: quantifica o deslocamento da predição causado exclusivamente pela inserção do termo do grupo.
 
-**ScoreSense (efeito médio por grupo \(g\)):**  
-\[
-ScoreSense(g)=\frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\Delta(x,x_n)
-\]
-onde \(P_g\) é o conjunto de pares cujo termo instanciado pertence ao grupo \(g\). 
+#### ScoreSense (efeito médio por grupo)
+
+Seja $$P_g$$ o conjunto de pares cujo termo instanciado pertence ao grupo $$g$$. Define-se:
+
+$$
+ScoreSense(g) = \frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\Delta(x,x_n)
+$$
 
 ---
 
-### Significância estatística: t-test (H0: E[Δ] = 0)
+### 📈 Significância estatística: t-test
 
-Para verificar se as variações observadas são diferentes de zero, aplica-se teste por grupo com a hipótese nula: 
-\[
+Para verificar se as variações observadas diferem estatisticamente de zero, aplica-se teste de hipótese sobre o conjunto de deltas.
+
+Hipótese nula:
+
+$$
 H_0: \mathbb{E}[\Delta] = 0
-\]
-Na prática, utiliza-se t-test uniamostral sobre os deltas (equivalente ao pareado quando calculado sobre a diferença entre pares). 
+$$
+
+Hipótese alternativa:
+
+$$
+H_1: \mathbb{E}[\Delta] \neq 0
+$$
+
+Na prática, utiliza-se t-test uniamostral sobre os valores de $$\Delta$$ (equivalente ao teste t pareado quando aplicado às diferenças entre pares).
 
 ---
 
-### Mudança decisória: LabelDist e FlipRate
+### 🔄 Mudança decisória: LabelDist e FlipRate
 
-Além do deslocamento contínuo, avalia-se impacto em **decisões discretas**, principalmente na tarefa de toxicidade.
+Além da variação contínua dos escores, avalia-se o impacto da perturbação em decisões discretas do modelo (especialmente na tarefa de toxicidade).
 
-**Função de decisão por limiar:** 
-\[
+#### Função de decisão por limiar
+
+$$
 d(x)=
 \begin{cases}
-1, & \text{se } f(x)\ge 0.5\\
+1, & \text{se } f(x)\ge 0.5 \\
 0, & \text{caso contrário}
 \end{cases}
-\]
+$$
 
-**LabelDist (distância de Jaccard entre conjuntos rotulados como tóxicos):** 
+onde $$1$$ representa classe tóxica e $$0$$ representa classe não tóxica.
+
+#### LabelDist (distância de Jaccard)
+
 Sejam:
-- \(A_g = \{ i \mid d(x_i)=1 \}\)
-- \(B_g = \{ i \mid d(x_{n,i})=1 \}\)
 
-\[
+$$
+A_g = \{ i \mid d(x_i)=1 \}
+$$
+
+$$
+B_g = \{ i \mid d(x_{n,i})=1 \}
+$$
+
+Define-se:
+
+$$
 LabelDist(g)=1-\frac{|A_g\cap B_g|}{|A_g\cup B_g|}
-\]
-Se \(A_g\cup B_g=\varnothing\), define-se \(LabelDist(g)=0\). 
+$$
 
-**FlipRate (taxa de inversão de rótulo):**  
-\[
-FlipRate(g)=\frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\mathbb{I}[d(x)\ne d(x_n)]
-\]
-onde \(\mathbb{I}\) é a função indicadora.
+Se $$A_g\cup B_g=\varnothing$$, define-se:
+
+$$
+LabelDist(g)=0
+$$
+
+#### FlipRate (taxa de inversão de rótulo)
+
+$$
+FlipRate(g)=\frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\mathbb{I}\left[d(x)\ne d(x_n)\right]
+$$
+
+onde $$\mathbb{I}(\cdot)$$ é a função indicadora.
+
 
 ---
 
@@ -230,6 +295,7 @@ onde \(\mathbb{I}\) é a função indicadora.
 
 ##  Referência
 Esta metodologia é baseada na adaptação do BITS e do protocolo PSA para o contexto do português brasileiro, conforme descrito no manuscrito do projeto.
+https://arxiv.org/abs/2307.09209
 
 ## 🧪 Reproducibility
 
