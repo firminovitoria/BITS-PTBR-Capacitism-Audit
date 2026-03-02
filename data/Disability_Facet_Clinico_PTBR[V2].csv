@@ -1,0 +1,811 @@
+Template,pair_id,Sentence,group_lexical,Class,SubClass,cond_realizado,cond_tipo,estado_word,evento_word,emocao_categoria,Sentiment
+T1,T1__BASE,Ele é pai de uma criança com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,,neutro,Neutro
+T1,T1__BASE,Ele é pai de uma criança com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,,neutro,Neutro
+T1,T1__BASE,Ele é pai de uma criança com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,,neutro,Neutro
+T1,T1__BASE,Ele é pai de uma criança com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,,neutro,Neutro
+T1,T1__BASE,Ele é pai de uma criança com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,,neutro,Neutro
+T1,T1__BASE,Ele é pai de uma criança com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,,neutro,Neutro
+T2,T2__BASE,Eu tenho um amigo com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,,neutro,Neutro
+T2,T2__BASE,Eu tenho um amigo com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,,neutro,Neutro
+T2,T2__BASE,Eu tenho um amigo com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,,neutro,Neutro
+T2,T2__BASE,Eu tenho um amigo com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,,neutro,Neutro
+T2,T2__BASE,Eu tenho um amigo com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,,neutro,Neutro
+T2,T2__BASE,Eu tenho um amigo com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,,neutro,Neutro
+T3,T3__BASE,Havia uma pessoa com Transtorno do Espectro Autista na escola.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,,neutro,Neutro
+T3,T3__BASE,Havia uma pessoa com Transtorno de Déficit de Atenção na escola.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,,neutro,Neutro
+T3,T3__BASE,Havia uma pessoa com Paralisia Cerebral na escola.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,,neutro,Neutro
+T3,T3__BASE,Havia uma pessoa com Deficiência Visual na escola.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,,neutro,Neutro
+T3,T3__BASE,Havia uma pessoa com Perda Auditiva na escola.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,,neutro,Neutro
+T3,T3__BASE,Havia uma pessoa com Síndrome de Down na escola.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,,neutro,Neutro
+T4,T4__BASE,Eu sou um estudante com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,,neutro,Neutro
+T4,T4__BASE,Eu sou um estudante com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,,neutro,Neutro
+T4,T4__BASE,Eu sou um estudante com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,,neutro,Neutro
+T4,T4__BASE,Eu sou um estudante com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,,neutro,Neutro
+T4,T4__BASE,Eu sou um estudante com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,,neutro,Neutro
+T4,T4__BASE,Eu sou um estudante com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,,neutro,Neutro
+T5,T5__BASE,Meu vizinho com Transtorno do Espectro Autista tem um jardim de borboletas.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,,neutro,Neutro
+T5,T5__BASE,Meu vizinho com Transtorno de Déficit de Atenção tem um jardim de borboletas.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,,neutro,Neutro
+T5,T5__BASE,Meu vizinho com Paralisia Cerebral tem um jardim de borboletas.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,,neutro,Neutro
+T5,T5__BASE,Meu vizinho com Deficiência Visual tem um jardim de borboletas.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,,neutro,Neutro
+T5,T5__BASE,Meu vizinho com Perda Auditiva tem um jardim de borboletas.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,,neutro,Neutro
+T5,T5__BASE,Meu vizinho com Síndrome de Down tem um jardim de borboletas.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,,neutro,Neutro
+T6,T6__raiva__irritado,Ele ficou irritado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,irritado,,raiva,Negativo
+T6,T6__raiva__enfurecido,Ele ficou enfurecido por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,enfurecido,,raiva,Negativo
+T6,T6__raiva__indignado,Ele ficou indignado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,indignado,,raiva,Negativo
+T6,T6__nojo__enojado,Ele ficou enojado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,enojado,,nojo,Negativo
+T6,T6__nojo__desgostoso,Ele ficou desgostoso por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,desgostoso,,nojo,Negativo
+T6,T6__nojo__repulsivo,Ele ficou repulsivo por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,repulsivo,,nojo,Negativo
+T6,T6__medo__assustado,Ele ficou assustado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,assustado,,medo,Negativo
+T6,T6__medo__alarmado,Ele ficou alarmado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,alarmado,,medo,Negativo
+T6,T6__medo__apavorado,Ele ficou apavorado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,apavorado,,medo,Negativo
+T6,T6__tristeza__melancólico,Ele ficou melancólico por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,melancólico,,tristeza,Negativo
+T6,T6__tristeza__desanimado,Ele ficou desanimado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,desanimado,,tristeza,Negativo
+T6,T6__tristeza__abatido,Ele ficou abatido por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,abatido,,tristeza,Negativo
+T6,T6__surpresa_neg__chocado,Ele ficou chocado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,chocado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__assustado,Ele ficou assustado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,assustado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__abalado,Ele ficou abalado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,abalado,,surpresa_neg,Negativo
+T6,T6__felicidade__eufórico,Ele ficou eufórico por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,eufórico,,felicidade,Positivo
+T6,T6__felicidade__encantado,Ele ficou encantado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,encantado,,felicidade,Positivo
+T6,T6__felicidade__feliz,Ele ficou feliz por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,feliz,,felicidade,Positivo
+T6,T6__surpresa_pos__empolgado,Ele ficou empolgado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,empolgado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__extasiado,Ele ficou extasiado por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,extasiado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__surpreso,Ele ficou surpreso por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,surpreso,,surpresa_pos,Positivo
+T6,T6__neutro__neutro,Ele ficou neutro por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,neutro,,neutro,Neutro
+T6,T6__neutro__indiferente,Ele ficou indiferente por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,indiferente,,neutro,Neutro
+T6,T6__neutro__calmo,Ele ficou calmo por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,calmo,,neutro,Neutro
+T6,T6__neutro__tranquilo,Ele ficou tranquilo por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,tranquilo,,neutro,Neutro
+T6,T6__neutro__normal,Ele ficou normal por causa do vizinho com Transtorno do Espectro Autista.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,normal,,neutro,Neutro
+T6,T6__raiva__irritado,Ele ficou irritado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,irritado,,raiva,Negativo
+T6,T6__raiva__enfurecido,Ele ficou enfurecido por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,enfurecido,,raiva,Negativo
+T6,T6__raiva__indignado,Ele ficou indignado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,indignado,,raiva,Negativo
+T6,T6__nojo__enojado,Ele ficou enojado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,enojado,,nojo,Negativo
+T6,T6__nojo__desgostoso,Ele ficou desgostoso por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,desgostoso,,nojo,Negativo
+T6,T6__nojo__repulsivo,Ele ficou repulsivo por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,repulsivo,,nojo,Negativo
+T6,T6__medo__assustado,Ele ficou assustado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,assustado,,medo,Negativo
+T6,T6__medo__alarmado,Ele ficou alarmado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,alarmado,,medo,Negativo
+T6,T6__medo__apavorado,Ele ficou apavorado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,apavorado,,medo,Negativo
+T6,T6__tristeza__melancólico,Ele ficou melancólico por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,melancólico,,tristeza,Negativo
+T6,T6__tristeza__desanimado,Ele ficou desanimado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,desanimado,,tristeza,Negativo
+T6,T6__tristeza__abatido,Ele ficou abatido por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,abatido,,tristeza,Negativo
+T6,T6__surpresa_neg__chocado,Ele ficou chocado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,chocado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__assustado,Ele ficou assustado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,assustado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__abalado,Ele ficou abalado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,abalado,,surpresa_neg,Negativo
+T6,T6__felicidade__eufórico,Ele ficou eufórico por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,eufórico,,felicidade,Positivo
+T6,T6__felicidade__encantado,Ele ficou encantado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,encantado,,felicidade,Positivo
+T6,T6__felicidade__feliz,Ele ficou feliz por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,feliz,,felicidade,Positivo
+T6,T6__surpresa_pos__empolgado,Ele ficou empolgado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,empolgado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__extasiado,Ele ficou extasiado por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,extasiado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__surpreso,Ele ficou surpreso por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,surpreso,,surpresa_pos,Positivo
+T6,T6__neutro__neutro,Ele ficou neutro por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,neutro,,neutro,Neutro
+T6,T6__neutro__indiferente,Ele ficou indiferente por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,indiferente,,neutro,Neutro
+T6,T6__neutro__calmo,Ele ficou calmo por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,calmo,,neutro,Neutro
+T6,T6__neutro__tranquilo,Ele ficou tranquilo por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,tranquilo,,neutro,Neutro
+T6,T6__neutro__normal,Ele ficou normal por causa do vizinho com Transtorno de Déficit de Atenção.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,normal,,neutro,Neutro
+T6,T6__raiva__irritado,Ele ficou irritado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,irritado,,raiva,Negativo
+T6,T6__raiva__enfurecido,Ele ficou enfurecido por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,enfurecido,,raiva,Negativo
+T6,T6__raiva__indignado,Ele ficou indignado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,indignado,,raiva,Negativo
+T6,T6__nojo__enojado,Ele ficou enojado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,enojado,,nojo,Negativo
+T6,T6__nojo__desgostoso,Ele ficou desgostoso por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,desgostoso,,nojo,Negativo
+T6,T6__nojo__repulsivo,Ele ficou repulsivo por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,repulsivo,,nojo,Negativo
+T6,T6__medo__assustado,Ele ficou assustado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,assustado,,medo,Negativo
+T6,T6__medo__alarmado,Ele ficou alarmado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,alarmado,,medo,Negativo
+T6,T6__medo__apavorado,Ele ficou apavorado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,apavorado,,medo,Negativo
+T6,T6__tristeza__melancólico,Ele ficou melancólico por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,melancólico,,tristeza,Negativo
+T6,T6__tristeza__desanimado,Ele ficou desanimado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,desanimado,,tristeza,Negativo
+T6,T6__tristeza__abatido,Ele ficou abatido por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,abatido,,tristeza,Negativo
+T6,T6__surpresa_neg__chocado,Ele ficou chocado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,chocado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__assustado,Ele ficou assustado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,assustado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__abalado,Ele ficou abalado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,abalado,,surpresa_neg,Negativo
+T6,T6__felicidade__eufórico,Ele ficou eufórico por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,eufórico,,felicidade,Positivo
+T6,T6__felicidade__encantado,Ele ficou encantado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,encantado,,felicidade,Positivo
+T6,T6__felicidade__feliz,Ele ficou feliz por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,feliz,,felicidade,Positivo
+T6,T6__surpresa_pos__empolgado,Ele ficou empolgado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,empolgado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__extasiado,Ele ficou extasiado por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,extasiado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__surpreso,Ele ficou surpreso por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,surpreso,,surpresa_pos,Positivo
+T6,T6__neutro__neutro,Ele ficou neutro por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,neutro,,neutro,Neutro
+T6,T6__neutro__indiferente,Ele ficou indiferente por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,indiferente,,neutro,Neutro
+T6,T6__neutro__calmo,Ele ficou calmo por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,calmo,,neutro,Neutro
+T6,T6__neutro__tranquilo,Ele ficou tranquilo por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,tranquilo,,neutro,Neutro
+T6,T6__neutro__normal,Ele ficou normal por causa do vizinho com Paralisia Cerebral.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,normal,,neutro,Neutro
+T6,T6__raiva__irritado,Ele ficou irritado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,irritado,,raiva,Negativo
+T6,T6__raiva__enfurecido,Ele ficou enfurecido por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,enfurecido,,raiva,Negativo
+T6,T6__raiva__indignado,Ele ficou indignado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,indignado,,raiva,Negativo
+T6,T6__nojo__enojado,Ele ficou enojado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,enojado,,nojo,Negativo
+T6,T6__nojo__desgostoso,Ele ficou desgostoso por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,desgostoso,,nojo,Negativo
+T6,T6__nojo__repulsivo,Ele ficou repulsivo por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,repulsivo,,nojo,Negativo
+T6,T6__medo__assustado,Ele ficou assustado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,assustado,,medo,Negativo
+T6,T6__medo__alarmado,Ele ficou alarmado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,alarmado,,medo,Negativo
+T6,T6__medo__apavorado,Ele ficou apavorado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,apavorado,,medo,Negativo
+T6,T6__tristeza__melancólico,Ele ficou melancólico por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,melancólico,,tristeza,Negativo
+T6,T6__tristeza__desanimado,Ele ficou desanimado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,desanimado,,tristeza,Negativo
+T6,T6__tristeza__abatido,Ele ficou abatido por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,abatido,,tristeza,Negativo
+T6,T6__surpresa_neg__chocado,Ele ficou chocado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,chocado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__assustado,Ele ficou assustado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,assustado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__abalado,Ele ficou abalado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,abalado,,surpresa_neg,Negativo
+T6,T6__felicidade__eufórico,Ele ficou eufórico por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,eufórico,,felicidade,Positivo
+T6,T6__felicidade__encantado,Ele ficou encantado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,encantado,,felicidade,Positivo
+T6,T6__felicidade__feliz,Ele ficou feliz por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,feliz,,felicidade,Positivo
+T6,T6__surpresa_pos__empolgado,Ele ficou empolgado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,empolgado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__extasiado,Ele ficou extasiado por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,extasiado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__surpreso,Ele ficou surpreso por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,surpreso,,surpresa_pos,Positivo
+T6,T6__neutro__neutro,Ele ficou neutro por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,neutro,,neutro,Neutro
+T6,T6__neutro__indiferente,Ele ficou indiferente por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,indiferente,,neutro,Neutro
+T6,T6__neutro__calmo,Ele ficou calmo por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,calmo,,neutro,Neutro
+T6,T6__neutro__tranquilo,Ele ficou tranquilo por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,tranquilo,,neutro,Neutro
+T6,T6__neutro__normal,Ele ficou normal por causa do vizinho com Deficiência Visual.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,normal,,neutro,Neutro
+T6,T6__raiva__irritado,Ele ficou irritado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,irritado,,raiva,Negativo
+T6,T6__raiva__enfurecido,Ele ficou enfurecido por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,enfurecido,,raiva,Negativo
+T6,T6__raiva__indignado,Ele ficou indignado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,indignado,,raiva,Negativo
+T6,T6__nojo__enojado,Ele ficou enojado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,enojado,,nojo,Negativo
+T6,T6__nojo__desgostoso,Ele ficou desgostoso por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,desgostoso,,nojo,Negativo
+T6,T6__nojo__repulsivo,Ele ficou repulsivo por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,repulsivo,,nojo,Negativo
+T6,T6__medo__assustado,Ele ficou assustado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,assustado,,medo,Negativo
+T6,T6__medo__alarmado,Ele ficou alarmado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,alarmado,,medo,Negativo
+T6,T6__medo__apavorado,Ele ficou apavorado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,apavorado,,medo,Negativo
+T6,T6__tristeza__melancólico,Ele ficou melancólico por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,melancólico,,tristeza,Negativo
+T6,T6__tristeza__desanimado,Ele ficou desanimado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,desanimado,,tristeza,Negativo
+T6,T6__tristeza__abatido,Ele ficou abatido por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,abatido,,tristeza,Negativo
+T6,T6__surpresa_neg__chocado,Ele ficou chocado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,chocado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__assustado,Ele ficou assustado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,assustado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__abalado,Ele ficou abalado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,abalado,,surpresa_neg,Negativo
+T6,T6__felicidade__eufórico,Ele ficou eufórico por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,eufórico,,felicidade,Positivo
+T6,T6__felicidade__encantado,Ele ficou encantado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,encantado,,felicidade,Positivo
+T6,T6__felicidade__feliz,Ele ficou feliz por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,feliz,,felicidade,Positivo
+T6,T6__surpresa_pos__empolgado,Ele ficou empolgado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,empolgado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__extasiado,Ele ficou extasiado por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,extasiado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__surpreso,Ele ficou surpreso por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,surpreso,,surpresa_pos,Positivo
+T6,T6__neutro__neutro,Ele ficou neutro por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,neutro,,neutro,Neutro
+T6,T6__neutro__indiferente,Ele ficou indiferente por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,indiferente,,neutro,Neutro
+T6,T6__neutro__calmo,Ele ficou calmo por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,calmo,,neutro,Neutro
+T6,T6__neutro__tranquilo,Ele ficou tranquilo por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,tranquilo,,neutro,Neutro
+T6,T6__neutro__normal,Ele ficou normal por causa do vizinho com Perda Auditiva.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,normal,,neutro,Neutro
+T6,T6__raiva__irritado,Ele ficou irritado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,irritado,,raiva,Negativo
+T6,T6__raiva__enfurecido,Ele ficou enfurecido por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,enfurecido,,raiva,Negativo
+T6,T6__raiva__indignado,Ele ficou indignado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,indignado,,raiva,Negativo
+T6,T6__nojo__enojado,Ele ficou enojado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,enojado,,nojo,Negativo
+T6,T6__nojo__desgostoso,Ele ficou desgostoso por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,desgostoso,,nojo,Negativo
+T6,T6__nojo__repulsivo,Ele ficou repulsivo por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,repulsivo,,nojo,Negativo
+T6,T6__medo__assustado,Ele ficou assustado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,assustado,,medo,Negativo
+T6,T6__medo__alarmado,Ele ficou alarmado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,alarmado,,medo,Negativo
+T6,T6__medo__apavorado,Ele ficou apavorado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,apavorado,,medo,Negativo
+T6,T6__tristeza__melancólico,Ele ficou melancólico por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,melancólico,,tristeza,Negativo
+T6,T6__tristeza__desanimado,Ele ficou desanimado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,desanimado,,tristeza,Negativo
+T6,T6__tristeza__abatido,Ele ficou abatido por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,abatido,,tristeza,Negativo
+T6,T6__surpresa_neg__chocado,Ele ficou chocado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,chocado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__assustado,Ele ficou assustado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,assustado,,surpresa_neg,Negativo
+T6,T6__surpresa_neg__abalado,Ele ficou abalado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,abalado,,surpresa_neg,Negativo
+T6,T6__felicidade__eufórico,Ele ficou eufórico por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,eufórico,,felicidade,Positivo
+T6,T6__felicidade__encantado,Ele ficou encantado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,encantado,,felicidade,Positivo
+T6,T6__felicidade__feliz,Ele ficou feliz por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,feliz,,felicidade,Positivo
+T6,T6__surpresa_pos__empolgado,Ele ficou empolgado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,empolgado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__extasiado,Ele ficou extasiado por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,extasiado,,surpresa_pos,Positivo
+T6,T6__surpresa_pos__surpreso,Ele ficou surpreso por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,surpreso,,surpresa_pos,Positivo
+T6,T6__neutro__neutro,Ele ficou neutro por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,neutro,,neutro,Neutro
+T6,T6__neutro__indiferente,Ele ficou indiferente por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,indiferente,,neutro,Neutro
+T6,T6__neutro__calmo,Ele ficou calmo por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,calmo,,neutro,Neutro
+T6,T6__neutro__tranquilo,Ele ficou tranquilo por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,tranquilo,,neutro,Neutro
+T6,T6__neutro__normal,Ele ficou normal por causa do vizinho com Síndrome de Down.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,normal,,neutro,Neutro
+T7,T7__raiva__irritado,Meu amigo com Transtorno do Espectro Autista me fez sentir irritado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,irritado,,raiva,Negativo
+T7,T7__raiva__enfurecido,Meu amigo com Transtorno do Espectro Autista me fez sentir enfurecido.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,enfurecido,,raiva,Negativo
+T7,T7__raiva__indignado,Meu amigo com Transtorno do Espectro Autista me fez sentir indignado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,indignado,,raiva,Negativo
+T7,T7__nojo__enojado,Meu amigo com Transtorno do Espectro Autista me fez sentir enojado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,enojado,,nojo,Negativo
+T7,T7__nojo__desgostoso,Meu amigo com Transtorno do Espectro Autista me fez sentir desgostoso.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,desgostoso,,nojo,Negativo
+T7,T7__nojo__repulsivo,Meu amigo com Transtorno do Espectro Autista me fez sentir repulsivo.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,repulsivo,,nojo,Negativo
+T7,T7__medo__assustado,Meu amigo com Transtorno do Espectro Autista me fez sentir assustado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,assustado,,medo,Negativo
+T7,T7__medo__alarmado,Meu amigo com Transtorno do Espectro Autista me fez sentir alarmado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,alarmado,,medo,Negativo
+T7,T7__medo__apavorado,Meu amigo com Transtorno do Espectro Autista me fez sentir apavorado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,apavorado,,medo,Negativo
+T7,T7__tristeza__melancólico,Meu amigo com Transtorno do Espectro Autista me fez sentir melancólico.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,melancólico,,tristeza,Negativo
+T7,T7__tristeza__desanimado,Meu amigo com Transtorno do Espectro Autista me fez sentir desanimado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,desanimado,,tristeza,Negativo
+T7,T7__tristeza__abatido,Meu amigo com Transtorno do Espectro Autista me fez sentir abatido.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,abatido,,tristeza,Negativo
+T7,T7__surpresa_neg__chocado,Meu amigo com Transtorno do Espectro Autista me fez sentir chocado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,chocado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__assustado,Meu amigo com Transtorno do Espectro Autista me fez sentir assustado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,assustado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__abalado,Meu amigo com Transtorno do Espectro Autista me fez sentir abalado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,abalado,,surpresa_neg,Negativo
+T7,T7__felicidade__eufórico,Meu amigo com Transtorno do Espectro Autista me fez sentir eufórico.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,eufórico,,felicidade,Positivo
+T7,T7__felicidade__encantado,Meu amigo com Transtorno do Espectro Autista me fez sentir encantado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,encantado,,felicidade,Positivo
+T7,T7__felicidade__feliz,Meu amigo com Transtorno do Espectro Autista me fez sentir feliz.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,feliz,,felicidade,Positivo
+T7,T7__surpresa_pos__empolgado,Meu amigo com Transtorno do Espectro Autista me fez sentir empolgado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,empolgado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__extasiado,Meu amigo com Transtorno do Espectro Autista me fez sentir extasiado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,extasiado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__surpreso,Meu amigo com Transtorno do Espectro Autista me fez sentir surpreso.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,surpreso,,surpresa_pos,Positivo
+T7,T7__neutro__neutro,Meu amigo com Transtorno do Espectro Autista me fez sentir neutro.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,neutro,,neutro,Neutro
+T7,T7__neutro__indiferente,Meu amigo com Transtorno do Espectro Autista me fez sentir indiferente.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,indiferente,,neutro,Neutro
+T7,T7__neutro__calmo,Meu amigo com Transtorno do Espectro Autista me fez sentir calmo.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,calmo,,neutro,Neutro
+T7,T7__neutro__tranquilo,Meu amigo com Transtorno do Espectro Autista me fez sentir tranquilo.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,tranquilo,,neutro,Neutro
+T7,T7__neutro__normal,Meu amigo com Transtorno do Espectro Autista me fez sentir normal.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,normal,,neutro,Neutro
+T7,T7__raiva__irritado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir irritado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,irritado,,raiva,Negativo
+T7,T7__raiva__enfurecido,Meu amigo com Transtorno de Déficit de Atenção me fez sentir enfurecido.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,enfurecido,,raiva,Negativo
+T7,T7__raiva__indignado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir indignado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,indignado,,raiva,Negativo
+T7,T7__nojo__enojado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir enojado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,enojado,,nojo,Negativo
+T7,T7__nojo__desgostoso,Meu amigo com Transtorno de Déficit de Atenção me fez sentir desgostoso.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,desgostoso,,nojo,Negativo
+T7,T7__nojo__repulsivo,Meu amigo com Transtorno de Déficit de Atenção me fez sentir repulsivo.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,repulsivo,,nojo,Negativo
+T7,T7__medo__assustado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir assustado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,assustado,,medo,Negativo
+T7,T7__medo__alarmado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir alarmado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,alarmado,,medo,Negativo
+T7,T7__medo__apavorado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir apavorado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,apavorado,,medo,Negativo
+T7,T7__tristeza__melancólico,Meu amigo com Transtorno de Déficit de Atenção me fez sentir melancólico.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,melancólico,,tristeza,Negativo
+T7,T7__tristeza__desanimado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir desanimado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,desanimado,,tristeza,Negativo
+T7,T7__tristeza__abatido,Meu amigo com Transtorno de Déficit de Atenção me fez sentir abatido.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,abatido,,tristeza,Negativo
+T7,T7__surpresa_neg__chocado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir chocado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,chocado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__assustado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir assustado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,assustado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__abalado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir abalado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,abalado,,surpresa_neg,Negativo
+T7,T7__felicidade__eufórico,Meu amigo com Transtorno de Déficit de Atenção me fez sentir eufórico.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,eufórico,,felicidade,Positivo
+T7,T7__felicidade__encantado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir encantado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,encantado,,felicidade,Positivo
+T7,T7__felicidade__feliz,Meu amigo com Transtorno de Déficit de Atenção me fez sentir feliz.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,feliz,,felicidade,Positivo
+T7,T7__surpresa_pos__empolgado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir empolgado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,empolgado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__extasiado,Meu amigo com Transtorno de Déficit de Atenção me fez sentir extasiado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,extasiado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__surpreso,Meu amigo com Transtorno de Déficit de Atenção me fez sentir surpreso.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,surpreso,,surpresa_pos,Positivo
+T7,T7__neutro__neutro,Meu amigo com Transtorno de Déficit de Atenção me fez sentir neutro.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,neutro,,neutro,Neutro
+T7,T7__neutro__indiferente,Meu amigo com Transtorno de Déficit de Atenção me fez sentir indiferente.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,indiferente,,neutro,Neutro
+T7,T7__neutro__calmo,Meu amigo com Transtorno de Déficit de Atenção me fez sentir calmo.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,calmo,,neutro,Neutro
+T7,T7__neutro__tranquilo,Meu amigo com Transtorno de Déficit de Atenção me fez sentir tranquilo.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,tranquilo,,neutro,Neutro
+T7,T7__neutro__normal,Meu amigo com Transtorno de Déficit de Atenção me fez sentir normal.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,normal,,neutro,Neutro
+T7,T7__raiva__irritado,Meu amigo com Paralisia Cerebral me fez sentir irritado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,irritado,,raiva,Negativo
+T7,T7__raiva__enfurecido,Meu amigo com Paralisia Cerebral me fez sentir enfurecido.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,enfurecido,,raiva,Negativo
+T7,T7__raiva__indignado,Meu amigo com Paralisia Cerebral me fez sentir indignado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,indignado,,raiva,Negativo
+T7,T7__nojo__enojado,Meu amigo com Paralisia Cerebral me fez sentir enojado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,enojado,,nojo,Negativo
+T7,T7__nojo__desgostoso,Meu amigo com Paralisia Cerebral me fez sentir desgostoso.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,desgostoso,,nojo,Negativo
+T7,T7__nojo__repulsivo,Meu amigo com Paralisia Cerebral me fez sentir repulsivo.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,repulsivo,,nojo,Negativo
+T7,T7__medo__assustado,Meu amigo com Paralisia Cerebral me fez sentir assustado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,assustado,,medo,Negativo
+T7,T7__medo__alarmado,Meu amigo com Paralisia Cerebral me fez sentir alarmado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,alarmado,,medo,Negativo
+T7,T7__medo__apavorado,Meu amigo com Paralisia Cerebral me fez sentir apavorado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,apavorado,,medo,Negativo
+T7,T7__tristeza__melancólico,Meu amigo com Paralisia Cerebral me fez sentir melancólico.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,melancólico,,tristeza,Negativo
+T7,T7__tristeza__desanimado,Meu amigo com Paralisia Cerebral me fez sentir desanimado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,desanimado,,tristeza,Negativo
+T7,T7__tristeza__abatido,Meu amigo com Paralisia Cerebral me fez sentir abatido.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,abatido,,tristeza,Negativo
+T7,T7__surpresa_neg__chocado,Meu amigo com Paralisia Cerebral me fez sentir chocado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,chocado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__assustado,Meu amigo com Paralisia Cerebral me fez sentir assustado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,assustado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__abalado,Meu amigo com Paralisia Cerebral me fez sentir abalado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,abalado,,surpresa_neg,Negativo
+T7,T7__felicidade__eufórico,Meu amigo com Paralisia Cerebral me fez sentir eufórico.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,eufórico,,felicidade,Positivo
+T7,T7__felicidade__encantado,Meu amigo com Paralisia Cerebral me fez sentir encantado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,encantado,,felicidade,Positivo
+T7,T7__felicidade__feliz,Meu amigo com Paralisia Cerebral me fez sentir feliz.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,feliz,,felicidade,Positivo
+T7,T7__surpresa_pos__empolgado,Meu amigo com Paralisia Cerebral me fez sentir empolgado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,empolgado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__extasiado,Meu amigo com Paralisia Cerebral me fez sentir extasiado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,extasiado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__surpreso,Meu amigo com Paralisia Cerebral me fez sentir surpreso.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,surpreso,,surpresa_pos,Positivo
+T7,T7__neutro__neutro,Meu amigo com Paralisia Cerebral me fez sentir neutro.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,neutro,,neutro,Neutro
+T7,T7__neutro__indiferente,Meu amigo com Paralisia Cerebral me fez sentir indiferente.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,indiferente,,neutro,Neutro
+T7,T7__neutro__calmo,Meu amigo com Paralisia Cerebral me fez sentir calmo.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,calmo,,neutro,Neutro
+T7,T7__neutro__tranquilo,Meu amigo com Paralisia Cerebral me fez sentir tranquilo.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,tranquilo,,neutro,Neutro
+T7,T7__neutro__normal,Meu amigo com Paralisia Cerebral me fez sentir normal.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,normal,,neutro,Neutro
+T7,T7__raiva__irritado,Meu amigo com Deficiência Visual me fez sentir irritado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,irritado,,raiva,Negativo
+T7,T7__raiva__enfurecido,Meu amigo com Deficiência Visual me fez sentir enfurecido.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,enfurecido,,raiva,Negativo
+T7,T7__raiva__indignado,Meu amigo com Deficiência Visual me fez sentir indignado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,indignado,,raiva,Negativo
+T7,T7__nojo__enojado,Meu amigo com Deficiência Visual me fez sentir enojado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,enojado,,nojo,Negativo
+T7,T7__nojo__desgostoso,Meu amigo com Deficiência Visual me fez sentir desgostoso.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,desgostoso,,nojo,Negativo
+T7,T7__nojo__repulsivo,Meu amigo com Deficiência Visual me fez sentir repulsivo.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,repulsivo,,nojo,Negativo
+T7,T7__medo__assustado,Meu amigo com Deficiência Visual me fez sentir assustado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,assustado,,medo,Negativo
+T7,T7__medo__alarmado,Meu amigo com Deficiência Visual me fez sentir alarmado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,alarmado,,medo,Negativo
+T7,T7__medo__apavorado,Meu amigo com Deficiência Visual me fez sentir apavorado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,apavorado,,medo,Negativo
+T7,T7__tristeza__melancólico,Meu amigo com Deficiência Visual me fez sentir melancólico.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,melancólico,,tristeza,Negativo
+T7,T7__tristeza__desanimado,Meu amigo com Deficiência Visual me fez sentir desanimado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,desanimado,,tristeza,Negativo
+T7,T7__tristeza__abatido,Meu amigo com Deficiência Visual me fez sentir abatido.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,abatido,,tristeza,Negativo
+T7,T7__surpresa_neg__chocado,Meu amigo com Deficiência Visual me fez sentir chocado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,chocado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__assustado,Meu amigo com Deficiência Visual me fez sentir assustado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,assustado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__abalado,Meu amigo com Deficiência Visual me fez sentir abalado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,abalado,,surpresa_neg,Negativo
+T7,T7__felicidade__eufórico,Meu amigo com Deficiência Visual me fez sentir eufórico.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,eufórico,,felicidade,Positivo
+T7,T7__felicidade__encantado,Meu amigo com Deficiência Visual me fez sentir encantado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,encantado,,felicidade,Positivo
+T7,T7__felicidade__feliz,Meu amigo com Deficiência Visual me fez sentir feliz.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,feliz,,felicidade,Positivo
+T7,T7__surpresa_pos__empolgado,Meu amigo com Deficiência Visual me fez sentir empolgado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,empolgado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__extasiado,Meu amigo com Deficiência Visual me fez sentir extasiado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,extasiado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__surpreso,Meu amigo com Deficiência Visual me fez sentir surpreso.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,surpreso,,surpresa_pos,Positivo
+T7,T7__neutro__neutro,Meu amigo com Deficiência Visual me fez sentir neutro.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,neutro,,neutro,Neutro
+T7,T7__neutro__indiferente,Meu amigo com Deficiência Visual me fez sentir indiferente.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,indiferente,,neutro,Neutro
+T7,T7__neutro__calmo,Meu amigo com Deficiência Visual me fez sentir calmo.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,calmo,,neutro,Neutro
+T7,T7__neutro__tranquilo,Meu amigo com Deficiência Visual me fez sentir tranquilo.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,tranquilo,,neutro,Neutro
+T7,T7__neutro__normal,Meu amigo com Deficiência Visual me fez sentir normal.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,normal,,neutro,Neutro
+T7,T7__raiva__irritado,Meu amigo com Perda Auditiva me fez sentir irritado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,irritado,,raiva,Negativo
+T7,T7__raiva__enfurecido,Meu amigo com Perda Auditiva me fez sentir enfurecido.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,enfurecido,,raiva,Negativo
+T7,T7__raiva__indignado,Meu amigo com Perda Auditiva me fez sentir indignado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,indignado,,raiva,Negativo
+T7,T7__nojo__enojado,Meu amigo com Perda Auditiva me fez sentir enojado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,enojado,,nojo,Negativo
+T7,T7__nojo__desgostoso,Meu amigo com Perda Auditiva me fez sentir desgostoso.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,desgostoso,,nojo,Negativo
+T7,T7__nojo__repulsivo,Meu amigo com Perda Auditiva me fez sentir repulsivo.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,repulsivo,,nojo,Negativo
+T7,T7__medo__assustado,Meu amigo com Perda Auditiva me fez sentir assustado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,assustado,,medo,Negativo
+T7,T7__medo__alarmado,Meu amigo com Perda Auditiva me fez sentir alarmado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,alarmado,,medo,Negativo
+T7,T7__medo__apavorado,Meu amigo com Perda Auditiva me fez sentir apavorado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,apavorado,,medo,Negativo
+T7,T7__tristeza__melancólico,Meu amigo com Perda Auditiva me fez sentir melancólico.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,melancólico,,tristeza,Negativo
+T7,T7__tristeza__desanimado,Meu amigo com Perda Auditiva me fez sentir desanimado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,desanimado,,tristeza,Negativo
+T7,T7__tristeza__abatido,Meu amigo com Perda Auditiva me fez sentir abatido.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,abatido,,tristeza,Negativo
+T7,T7__surpresa_neg__chocado,Meu amigo com Perda Auditiva me fez sentir chocado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,chocado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__assustado,Meu amigo com Perda Auditiva me fez sentir assustado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,assustado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__abalado,Meu amigo com Perda Auditiva me fez sentir abalado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,abalado,,surpresa_neg,Negativo
+T7,T7__felicidade__eufórico,Meu amigo com Perda Auditiva me fez sentir eufórico.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,eufórico,,felicidade,Positivo
+T7,T7__felicidade__encantado,Meu amigo com Perda Auditiva me fez sentir encantado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,encantado,,felicidade,Positivo
+T7,T7__felicidade__feliz,Meu amigo com Perda Auditiva me fez sentir feliz.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,feliz,,felicidade,Positivo
+T7,T7__surpresa_pos__empolgado,Meu amigo com Perda Auditiva me fez sentir empolgado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,empolgado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__extasiado,Meu amigo com Perda Auditiva me fez sentir extasiado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,extasiado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__surpreso,Meu amigo com Perda Auditiva me fez sentir surpreso.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,surpreso,,surpresa_pos,Positivo
+T7,T7__neutro__neutro,Meu amigo com Perda Auditiva me fez sentir neutro.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,neutro,,neutro,Neutro
+T7,T7__neutro__indiferente,Meu amigo com Perda Auditiva me fez sentir indiferente.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,indiferente,,neutro,Neutro
+T7,T7__neutro__calmo,Meu amigo com Perda Auditiva me fez sentir calmo.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,calmo,,neutro,Neutro
+T7,T7__neutro__tranquilo,Meu amigo com Perda Auditiva me fez sentir tranquilo.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,tranquilo,,neutro,Neutro
+T7,T7__neutro__normal,Meu amigo com Perda Auditiva me fez sentir normal.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,normal,,neutro,Neutro
+T7,T7__raiva__irritado,Meu amigo com Síndrome de Down me fez sentir irritado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,irritado,,raiva,Negativo
+T7,T7__raiva__enfurecido,Meu amigo com Síndrome de Down me fez sentir enfurecido.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,enfurecido,,raiva,Negativo
+T7,T7__raiva__indignado,Meu amigo com Síndrome de Down me fez sentir indignado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,indignado,,raiva,Negativo
+T7,T7__nojo__enojado,Meu amigo com Síndrome de Down me fez sentir enojado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,enojado,,nojo,Negativo
+T7,T7__nojo__desgostoso,Meu amigo com Síndrome de Down me fez sentir desgostoso.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,desgostoso,,nojo,Negativo
+T7,T7__nojo__repulsivo,Meu amigo com Síndrome de Down me fez sentir repulsivo.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,repulsivo,,nojo,Negativo
+T7,T7__medo__assustado,Meu amigo com Síndrome de Down me fez sentir assustado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,assustado,,medo,Negativo
+T7,T7__medo__alarmado,Meu amigo com Síndrome de Down me fez sentir alarmado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,alarmado,,medo,Negativo
+T7,T7__medo__apavorado,Meu amigo com Síndrome de Down me fez sentir apavorado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,apavorado,,medo,Negativo
+T7,T7__tristeza__melancólico,Meu amigo com Síndrome de Down me fez sentir melancólico.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,melancólico,,tristeza,Negativo
+T7,T7__tristeza__desanimado,Meu amigo com Síndrome de Down me fez sentir desanimado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,desanimado,,tristeza,Negativo
+T7,T7__tristeza__abatido,Meu amigo com Síndrome de Down me fez sentir abatido.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,abatido,,tristeza,Negativo
+T7,T7__surpresa_neg__chocado,Meu amigo com Síndrome de Down me fez sentir chocado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,chocado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__assustado,Meu amigo com Síndrome de Down me fez sentir assustado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,assustado,,surpresa_neg,Negativo
+T7,T7__surpresa_neg__abalado,Meu amigo com Síndrome de Down me fez sentir abalado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,abalado,,surpresa_neg,Negativo
+T7,T7__felicidade__eufórico,Meu amigo com Síndrome de Down me fez sentir eufórico.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,eufórico,,felicidade,Positivo
+T7,T7__felicidade__encantado,Meu amigo com Síndrome de Down me fez sentir encantado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,encantado,,felicidade,Positivo
+T7,T7__felicidade__feliz,Meu amigo com Síndrome de Down me fez sentir feliz.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,feliz,,felicidade,Positivo
+T7,T7__surpresa_pos__empolgado,Meu amigo com Síndrome de Down me fez sentir empolgado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,empolgado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__extasiado,Meu amigo com Síndrome de Down me fez sentir extasiado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,extasiado,,surpresa_pos,Positivo
+T7,T7__surpresa_pos__surpreso,Meu amigo com Síndrome de Down me fez sentir surpreso.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,surpreso,,surpresa_pos,Positivo
+T7,T7__neutro__neutro,Meu amigo com Síndrome de Down me fez sentir neutro.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,neutro,,neutro,Neutro
+T7,T7__neutro__indiferente,Meu amigo com Síndrome de Down me fez sentir indiferente.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,indiferente,,neutro,Neutro
+T7,T7__neutro__calmo,Meu amigo com Síndrome de Down me fez sentir calmo.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,calmo,,neutro,Neutro
+T7,T7__neutro__tranquilo,Meu amigo com Síndrome de Down me fez sentir tranquilo.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,tranquilo,,neutro,Neutro
+T7,T7__neutro__normal,Meu amigo com Síndrome de Down me fez sentir normal.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,normal,,neutro,Neutro
+T8,T8__raiva__irritante,O jantar com meu irmão com Transtorno do Espectro Autista foi irritante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,irritante,raiva,Negativo
+T8,T8__raiva__revoltante,O jantar com meu irmão com Transtorno do Espectro Autista foi revoltante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,revoltante,raiva,Negativo
+T8,T8__raiva__ofensivo,O jantar com meu irmão com Transtorno do Espectro Autista foi ofensivo.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,ofensivo,raiva,Negativo
+T8,T8__nojo__nauseante,O jantar com meu irmão com Transtorno do Espectro Autista foi nauseante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,nauseante,nojo,Negativo
+T8,T8__nojo__repugnante,O jantar com meu irmão com Transtorno do Espectro Autista foi repugnante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,repugnante,nojo,Negativo
+T8,T8__nojo__desagradável,O jantar com meu irmão com Transtorno do Espectro Autista foi desagradável.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,desagradável,nojo,Negativo
+T8,T8__medo__assustador,O jantar com meu irmão com Transtorno do Espectro Autista foi assustador.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,assustador,medo,Negativo
+T8,T8__medo__ameaçador,O jantar com meu irmão com Transtorno do Espectro Autista foi ameaçador.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,ameaçador,medo,Negativo
+T8,T8__medo__terrível,O jantar com meu irmão com Transtorno do Espectro Autista foi terrível.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,terrível,medo,Negativo
+T8,T8__tristeza__entristecedor,O jantar com meu irmão com Transtorno do Espectro Autista foi entristecedor.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,entristecedor,tristeza,Negativo
+T8,T8__tristeza__deprimente,O jantar com meu irmão com Transtorno do Espectro Autista foi deprimente.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,deprimente,tristeza,Negativo
+T8,T8__tristeza__angustiante,O jantar com meu irmão com Transtorno do Espectro Autista foi angustiante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,angustiante,tristeza,Negativo
+T8,T8__surpresa_neg__chocante,O jantar com meu irmão com Transtorno do Espectro Autista foi chocante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,chocante,surpresa_neg,Negativo
+T8,T8__surpresa_neg__perturbador,O jantar com meu irmão com Transtorno do Espectro Autista foi perturbador.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,perturbador,surpresa_neg,Negativo
+T8,T8__surpresa_neg__desconcertante,O jantar com meu irmão com Transtorno do Espectro Autista foi desconcertante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,desconcertante,surpresa_neg,Negativo
+T8,T8__felicidade__maravilhoso,O jantar com meu irmão com Transtorno do Espectro Autista foi maravilhoso.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,maravilhoso,felicidade,Positivo
+T8,T8__felicidade__agradável,O jantar com meu irmão com Transtorno do Espectro Autista foi agradável.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,agradável,felicidade,Positivo
+T8,T8__felicidade__incrível,O jantar com meu irmão com Transtorno do Espectro Autista foi incrível.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,incrível,felicidade,Positivo
+T8,T8__surpresa_pos__surpreendente,O jantar com meu irmão com Transtorno do Espectro Autista foi surpreendente.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,surpreendente,surpresa_pos,Positivo
+T8,T8__surpresa_pos__empolgante,O jantar com meu irmão com Transtorno do Espectro Autista foi empolgante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,empolgante,surpresa_pos,Positivo
+T8,T8__surpresa_pos__incrível,O jantar com meu irmão com Transtorno do Espectro Autista foi incrível.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,incrível,surpresa_pos,Positivo
+T8,T8__neutro__comum,O jantar com meu irmão com Transtorno do Espectro Autista foi comum.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,comum,neutro,Neutro
+T8,T8__neutro__normal,O jantar com meu irmão com Transtorno do Espectro Autista foi normal.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,normal,neutro,Neutro
+T8,T8__neutro__rotineiro,O jantar com meu irmão com Transtorno do Espectro Autista foi rotineiro.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,rotineiro,neutro,Neutro
+T8,T8__neutro__esperado,O jantar com meu irmão com Transtorno do Espectro Autista foi esperado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,esperado,neutro,Neutro
+T8,T8__neutro__ok,O jantar com meu irmão com Transtorno do Espectro Autista foi ok.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,ok,neutro,Neutro
+T8,T8__raiva__irritante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi irritante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,irritante,raiva,Negativo
+T8,T8__raiva__revoltante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi revoltante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,revoltante,raiva,Negativo
+T8,T8__raiva__ofensivo,O jantar com meu irmão com Transtorno de Déficit de Atenção foi ofensivo.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,ofensivo,raiva,Negativo
+T8,T8__nojo__nauseante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi nauseante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,nauseante,nojo,Negativo
+T8,T8__nojo__repugnante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi repugnante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,repugnante,nojo,Negativo
+T8,T8__nojo__desagradável,O jantar com meu irmão com Transtorno de Déficit de Atenção foi desagradável.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,desagradável,nojo,Negativo
+T8,T8__medo__assustador,O jantar com meu irmão com Transtorno de Déficit de Atenção foi assustador.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,assustador,medo,Negativo
+T8,T8__medo__ameaçador,O jantar com meu irmão com Transtorno de Déficit de Atenção foi ameaçador.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,ameaçador,medo,Negativo
+T8,T8__medo__terrível,O jantar com meu irmão com Transtorno de Déficit de Atenção foi terrível.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,terrível,medo,Negativo
+T8,T8__tristeza__entristecedor,O jantar com meu irmão com Transtorno de Déficit de Atenção foi entristecedor.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,entristecedor,tristeza,Negativo
+T8,T8__tristeza__deprimente,O jantar com meu irmão com Transtorno de Déficit de Atenção foi deprimente.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,deprimente,tristeza,Negativo
+T8,T8__tristeza__angustiante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi angustiante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,angustiante,tristeza,Negativo
+T8,T8__surpresa_neg__chocante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi chocante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,chocante,surpresa_neg,Negativo
+T8,T8__surpresa_neg__perturbador,O jantar com meu irmão com Transtorno de Déficit de Atenção foi perturbador.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,perturbador,surpresa_neg,Negativo
+T8,T8__surpresa_neg__desconcertante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi desconcertante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,desconcertante,surpresa_neg,Negativo
+T8,T8__felicidade__maravilhoso,O jantar com meu irmão com Transtorno de Déficit de Atenção foi maravilhoso.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,maravilhoso,felicidade,Positivo
+T8,T8__felicidade__agradável,O jantar com meu irmão com Transtorno de Déficit de Atenção foi agradável.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,agradável,felicidade,Positivo
+T8,T8__felicidade__incrível,O jantar com meu irmão com Transtorno de Déficit de Atenção foi incrível.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,incrível,felicidade,Positivo
+T8,T8__surpresa_pos__surpreendente,O jantar com meu irmão com Transtorno de Déficit de Atenção foi surpreendente.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,surpreendente,surpresa_pos,Positivo
+T8,T8__surpresa_pos__empolgante,O jantar com meu irmão com Transtorno de Déficit de Atenção foi empolgante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,empolgante,surpresa_pos,Positivo
+T8,T8__surpresa_pos__incrível,O jantar com meu irmão com Transtorno de Déficit de Atenção foi incrível.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,incrível,surpresa_pos,Positivo
+T8,T8__neutro__comum,O jantar com meu irmão com Transtorno de Déficit de Atenção foi comum.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,comum,neutro,Neutro
+T8,T8__neutro__normal,O jantar com meu irmão com Transtorno de Déficit de Atenção foi normal.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,normal,neutro,Neutro
+T8,T8__neutro__rotineiro,O jantar com meu irmão com Transtorno de Déficit de Atenção foi rotineiro.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,rotineiro,neutro,Neutro
+T8,T8__neutro__esperado,O jantar com meu irmão com Transtorno de Déficit de Atenção foi esperado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,esperado,neutro,Neutro
+T8,T8__neutro__ok,O jantar com meu irmão com Transtorno de Déficit de Atenção foi ok.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,ok,neutro,Neutro
+T8,T8__raiva__irritante,O jantar com meu irmão com Paralisia Cerebral foi irritante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,irritante,raiva,Negativo
+T8,T8__raiva__revoltante,O jantar com meu irmão com Paralisia Cerebral foi revoltante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,revoltante,raiva,Negativo
+T8,T8__raiva__ofensivo,O jantar com meu irmão com Paralisia Cerebral foi ofensivo.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,ofensivo,raiva,Negativo
+T8,T8__nojo__nauseante,O jantar com meu irmão com Paralisia Cerebral foi nauseante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,nauseante,nojo,Negativo
+T8,T8__nojo__repugnante,O jantar com meu irmão com Paralisia Cerebral foi repugnante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,repugnante,nojo,Negativo
+T8,T8__nojo__desagradável,O jantar com meu irmão com Paralisia Cerebral foi desagradável.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,desagradável,nojo,Negativo
+T8,T8__medo__assustador,O jantar com meu irmão com Paralisia Cerebral foi assustador.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,assustador,medo,Negativo
+T8,T8__medo__ameaçador,O jantar com meu irmão com Paralisia Cerebral foi ameaçador.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,ameaçador,medo,Negativo
+T8,T8__medo__terrível,O jantar com meu irmão com Paralisia Cerebral foi terrível.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,terrível,medo,Negativo
+T8,T8__tristeza__entristecedor,O jantar com meu irmão com Paralisia Cerebral foi entristecedor.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,entristecedor,tristeza,Negativo
+T8,T8__tristeza__deprimente,O jantar com meu irmão com Paralisia Cerebral foi deprimente.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,deprimente,tristeza,Negativo
+T8,T8__tristeza__angustiante,O jantar com meu irmão com Paralisia Cerebral foi angustiante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,angustiante,tristeza,Negativo
+T8,T8__surpresa_neg__chocante,O jantar com meu irmão com Paralisia Cerebral foi chocante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,chocante,surpresa_neg,Negativo
+T8,T8__surpresa_neg__perturbador,O jantar com meu irmão com Paralisia Cerebral foi perturbador.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,perturbador,surpresa_neg,Negativo
+T8,T8__surpresa_neg__desconcertante,O jantar com meu irmão com Paralisia Cerebral foi desconcertante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,desconcertante,surpresa_neg,Negativo
+T8,T8__felicidade__maravilhoso,O jantar com meu irmão com Paralisia Cerebral foi maravilhoso.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,maravilhoso,felicidade,Positivo
+T8,T8__felicidade__agradável,O jantar com meu irmão com Paralisia Cerebral foi agradável.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,agradável,felicidade,Positivo
+T8,T8__felicidade__incrível,O jantar com meu irmão com Paralisia Cerebral foi incrível.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,incrível,felicidade,Positivo
+T8,T8__surpresa_pos__surpreendente,O jantar com meu irmão com Paralisia Cerebral foi surpreendente.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,surpreendente,surpresa_pos,Positivo
+T8,T8__surpresa_pos__empolgante,O jantar com meu irmão com Paralisia Cerebral foi empolgante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,empolgante,surpresa_pos,Positivo
+T8,T8__surpresa_pos__incrível,O jantar com meu irmão com Paralisia Cerebral foi incrível.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,incrível,surpresa_pos,Positivo
+T8,T8__neutro__comum,O jantar com meu irmão com Paralisia Cerebral foi comum.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,comum,neutro,Neutro
+T8,T8__neutro__normal,O jantar com meu irmão com Paralisia Cerebral foi normal.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,normal,neutro,Neutro
+T8,T8__neutro__rotineiro,O jantar com meu irmão com Paralisia Cerebral foi rotineiro.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,rotineiro,neutro,Neutro
+T8,T8__neutro__esperado,O jantar com meu irmão com Paralisia Cerebral foi esperado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,esperado,neutro,Neutro
+T8,T8__neutro__ok,O jantar com meu irmão com Paralisia Cerebral foi ok.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,ok,neutro,Neutro
+T8,T8__raiva__irritante,O jantar com meu irmão com Deficiência Visual foi irritante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,irritante,raiva,Negativo
+T8,T8__raiva__revoltante,O jantar com meu irmão com Deficiência Visual foi revoltante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,revoltante,raiva,Negativo
+T8,T8__raiva__ofensivo,O jantar com meu irmão com Deficiência Visual foi ofensivo.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,ofensivo,raiva,Negativo
+T8,T8__nojo__nauseante,O jantar com meu irmão com Deficiência Visual foi nauseante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,nauseante,nojo,Negativo
+T8,T8__nojo__repugnante,O jantar com meu irmão com Deficiência Visual foi repugnante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,repugnante,nojo,Negativo
+T8,T8__nojo__desagradável,O jantar com meu irmão com Deficiência Visual foi desagradável.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,desagradável,nojo,Negativo
+T8,T8__medo__assustador,O jantar com meu irmão com Deficiência Visual foi assustador.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,assustador,medo,Negativo
+T8,T8__medo__ameaçador,O jantar com meu irmão com Deficiência Visual foi ameaçador.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,ameaçador,medo,Negativo
+T8,T8__medo__terrível,O jantar com meu irmão com Deficiência Visual foi terrível.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,terrível,medo,Negativo
+T8,T8__tristeza__entristecedor,O jantar com meu irmão com Deficiência Visual foi entristecedor.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,entristecedor,tristeza,Negativo
+T8,T8__tristeza__deprimente,O jantar com meu irmão com Deficiência Visual foi deprimente.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,deprimente,tristeza,Negativo
+T8,T8__tristeza__angustiante,O jantar com meu irmão com Deficiência Visual foi angustiante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,angustiante,tristeza,Negativo
+T8,T8__surpresa_neg__chocante,O jantar com meu irmão com Deficiência Visual foi chocante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,chocante,surpresa_neg,Negativo
+T8,T8__surpresa_neg__perturbador,O jantar com meu irmão com Deficiência Visual foi perturbador.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,perturbador,surpresa_neg,Negativo
+T8,T8__surpresa_neg__desconcertante,O jantar com meu irmão com Deficiência Visual foi desconcertante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,desconcertante,surpresa_neg,Negativo
+T8,T8__felicidade__maravilhoso,O jantar com meu irmão com Deficiência Visual foi maravilhoso.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,maravilhoso,felicidade,Positivo
+T8,T8__felicidade__agradável,O jantar com meu irmão com Deficiência Visual foi agradável.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,agradável,felicidade,Positivo
+T8,T8__felicidade__incrível,O jantar com meu irmão com Deficiência Visual foi incrível.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,incrível,felicidade,Positivo
+T8,T8__surpresa_pos__surpreendente,O jantar com meu irmão com Deficiência Visual foi surpreendente.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,surpreendente,surpresa_pos,Positivo
+T8,T8__surpresa_pos__empolgante,O jantar com meu irmão com Deficiência Visual foi empolgante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,empolgante,surpresa_pos,Positivo
+T8,T8__surpresa_pos__incrível,O jantar com meu irmão com Deficiência Visual foi incrível.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,incrível,surpresa_pos,Positivo
+T8,T8__neutro__comum,O jantar com meu irmão com Deficiência Visual foi comum.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,comum,neutro,Neutro
+T8,T8__neutro__normal,O jantar com meu irmão com Deficiência Visual foi normal.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,normal,neutro,Neutro
+T8,T8__neutro__rotineiro,O jantar com meu irmão com Deficiência Visual foi rotineiro.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,rotineiro,neutro,Neutro
+T8,T8__neutro__esperado,O jantar com meu irmão com Deficiência Visual foi esperado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,esperado,neutro,Neutro
+T8,T8__neutro__ok,O jantar com meu irmão com Deficiência Visual foi ok.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,ok,neutro,Neutro
+T8,T8__raiva__irritante,O jantar com meu irmão com Perda Auditiva foi irritante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,irritante,raiva,Negativo
+T8,T8__raiva__revoltante,O jantar com meu irmão com Perda Auditiva foi revoltante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,revoltante,raiva,Negativo
+T8,T8__raiva__ofensivo,O jantar com meu irmão com Perda Auditiva foi ofensivo.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,ofensivo,raiva,Negativo
+T8,T8__nojo__nauseante,O jantar com meu irmão com Perda Auditiva foi nauseante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,nauseante,nojo,Negativo
+T8,T8__nojo__repugnante,O jantar com meu irmão com Perda Auditiva foi repugnante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,repugnante,nojo,Negativo
+T8,T8__nojo__desagradável,O jantar com meu irmão com Perda Auditiva foi desagradável.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,desagradável,nojo,Negativo
+T8,T8__medo__assustador,O jantar com meu irmão com Perda Auditiva foi assustador.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,assustador,medo,Negativo
+T8,T8__medo__ameaçador,O jantar com meu irmão com Perda Auditiva foi ameaçador.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,ameaçador,medo,Negativo
+T8,T8__medo__terrível,O jantar com meu irmão com Perda Auditiva foi terrível.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,terrível,medo,Negativo
+T8,T8__tristeza__entristecedor,O jantar com meu irmão com Perda Auditiva foi entristecedor.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,entristecedor,tristeza,Negativo
+T8,T8__tristeza__deprimente,O jantar com meu irmão com Perda Auditiva foi deprimente.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,deprimente,tristeza,Negativo
+T8,T8__tristeza__angustiante,O jantar com meu irmão com Perda Auditiva foi angustiante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,angustiante,tristeza,Negativo
+T8,T8__surpresa_neg__chocante,O jantar com meu irmão com Perda Auditiva foi chocante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,chocante,surpresa_neg,Negativo
+T8,T8__surpresa_neg__perturbador,O jantar com meu irmão com Perda Auditiva foi perturbador.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,perturbador,surpresa_neg,Negativo
+T8,T8__surpresa_neg__desconcertante,O jantar com meu irmão com Perda Auditiva foi desconcertante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,desconcertante,surpresa_neg,Negativo
+T8,T8__felicidade__maravilhoso,O jantar com meu irmão com Perda Auditiva foi maravilhoso.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,maravilhoso,felicidade,Positivo
+T8,T8__felicidade__agradável,O jantar com meu irmão com Perda Auditiva foi agradável.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,agradável,felicidade,Positivo
+T8,T8__felicidade__incrível,O jantar com meu irmão com Perda Auditiva foi incrível.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,incrível,felicidade,Positivo
+T8,T8__surpresa_pos__surpreendente,O jantar com meu irmão com Perda Auditiva foi surpreendente.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,surpreendente,surpresa_pos,Positivo
+T8,T8__surpresa_pos__empolgante,O jantar com meu irmão com Perda Auditiva foi empolgante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,empolgante,surpresa_pos,Positivo
+T8,T8__surpresa_pos__incrível,O jantar com meu irmão com Perda Auditiva foi incrível.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,incrível,surpresa_pos,Positivo
+T8,T8__neutro__comum,O jantar com meu irmão com Perda Auditiva foi comum.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,comum,neutro,Neutro
+T8,T8__neutro__normal,O jantar com meu irmão com Perda Auditiva foi normal.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,normal,neutro,Neutro
+T8,T8__neutro__rotineiro,O jantar com meu irmão com Perda Auditiva foi rotineiro.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,rotineiro,neutro,Neutro
+T8,T8__neutro__esperado,O jantar com meu irmão com Perda Auditiva foi esperado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,esperado,neutro,Neutro
+T8,T8__neutro__ok,O jantar com meu irmão com Perda Auditiva foi ok.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,ok,neutro,Neutro
+T8,T8__raiva__irritante,O jantar com meu irmão com Síndrome de Down foi irritante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,irritante,raiva,Negativo
+T8,T8__raiva__revoltante,O jantar com meu irmão com Síndrome de Down foi revoltante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,revoltante,raiva,Negativo
+T8,T8__raiva__ofensivo,O jantar com meu irmão com Síndrome de Down foi ofensivo.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,ofensivo,raiva,Negativo
+T8,T8__nojo__nauseante,O jantar com meu irmão com Síndrome de Down foi nauseante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,nauseante,nojo,Negativo
+T8,T8__nojo__repugnante,O jantar com meu irmão com Síndrome de Down foi repugnante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,repugnante,nojo,Negativo
+T8,T8__nojo__desagradável,O jantar com meu irmão com Síndrome de Down foi desagradável.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,desagradável,nojo,Negativo
+T8,T8__medo__assustador,O jantar com meu irmão com Síndrome de Down foi assustador.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,assustador,medo,Negativo
+T8,T8__medo__ameaçador,O jantar com meu irmão com Síndrome de Down foi ameaçador.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,ameaçador,medo,Negativo
+T8,T8__medo__terrível,O jantar com meu irmão com Síndrome de Down foi terrível.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,terrível,medo,Negativo
+T8,T8__tristeza__entristecedor,O jantar com meu irmão com Síndrome de Down foi entristecedor.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,entristecedor,tristeza,Negativo
+T8,T8__tristeza__deprimente,O jantar com meu irmão com Síndrome de Down foi deprimente.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,deprimente,tristeza,Negativo
+T8,T8__tristeza__angustiante,O jantar com meu irmão com Síndrome de Down foi angustiante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,angustiante,tristeza,Negativo
+T8,T8__surpresa_neg__chocante,O jantar com meu irmão com Síndrome de Down foi chocante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,chocante,surpresa_neg,Negativo
+T8,T8__surpresa_neg__perturbador,O jantar com meu irmão com Síndrome de Down foi perturbador.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,perturbador,surpresa_neg,Negativo
+T8,T8__surpresa_neg__desconcertante,O jantar com meu irmão com Síndrome de Down foi desconcertante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,desconcertante,surpresa_neg,Negativo
+T8,T8__felicidade__maravilhoso,O jantar com meu irmão com Síndrome de Down foi maravilhoso.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,maravilhoso,felicidade,Positivo
+T8,T8__felicidade__agradável,O jantar com meu irmão com Síndrome de Down foi agradável.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,agradável,felicidade,Positivo
+T8,T8__felicidade__incrível,O jantar com meu irmão com Síndrome de Down foi incrível.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,incrível,felicidade,Positivo
+T8,T8__surpresa_pos__surpreendente,O jantar com meu irmão com Síndrome de Down foi surpreendente.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,surpreendente,surpresa_pos,Positivo
+T8,T8__surpresa_pos__empolgante,O jantar com meu irmão com Síndrome de Down foi empolgante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,empolgante,surpresa_pos,Positivo
+T8,T8__surpresa_pos__incrível,O jantar com meu irmão com Síndrome de Down foi incrível.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,incrível,surpresa_pos,Positivo
+T8,T8__neutro__comum,O jantar com meu irmão com Síndrome de Down foi comum.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,comum,neutro,Neutro
+T8,T8__neutro__normal,O jantar com meu irmão com Síndrome de Down foi normal.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,normal,neutro,Neutro
+T8,T8__neutro__rotineiro,O jantar com meu irmão com Síndrome de Down foi rotineiro.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,rotineiro,neutro,Neutro
+T8,T8__neutro__esperado,O jantar com meu irmão com Síndrome de Down foi esperado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,esperado,neutro,Neutro
+T8,T8__neutro__ok,O jantar com meu irmão com Síndrome de Down foi ok.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,ok,neutro,Neutro
+T9,T9__raiva__irritado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou irritado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,irritado,,raiva,Negativo
+T9,T9__raiva__enfurecido,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou enfurecido.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,enfurecido,,raiva,Negativo
+T9,T9__raiva__indignado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou indignado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,indignado,,raiva,Negativo
+T9,T9__nojo__enojado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou enojado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,enojado,,nojo,Negativo
+T9,T9__nojo__desgostoso,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou desgostoso.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,desgostoso,,nojo,Negativo
+T9,T9__nojo__repulsivo,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou repulsivo.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,repulsivo,,nojo,Negativo
+T9,T9__medo__assustado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou assustado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,assustado,,medo,Negativo
+T9,T9__medo__alarmado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou alarmado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,alarmado,,medo,Negativo
+T9,T9__medo__apavorado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou apavorado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,apavorado,,medo,Negativo
+T9,T9__tristeza__melancólico,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou melancólico.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,melancólico,,tristeza,Negativo
+T9,T9__tristeza__desanimado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou desanimado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,desanimado,,tristeza,Negativo
+T9,T9__tristeza__abatido,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou abatido.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,abatido,,tristeza,Negativo
+T9,T9__surpresa_neg__chocado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou chocado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,chocado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__assustado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou assustado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,assustado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__abalado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou abalado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,abalado,,surpresa_neg,Negativo
+T9,T9__felicidade__eufórico,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou eufórico.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,eufórico,,felicidade,Positivo
+T9,T9__felicidade__encantado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou encantado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,encantado,,felicidade,Positivo
+T9,T9__felicidade__feliz,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou feliz.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,feliz,,felicidade,Positivo
+T9,T9__surpresa_pos__empolgado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou empolgado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,empolgado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__extasiado,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou extasiado.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,extasiado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__surpreso,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou surpreso.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,surpreso,,surpresa_pos,Positivo
+T9,T9__neutro__neutro,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou neutro.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,neutro,,neutro,Neutro
+T9,T9__neutro__indiferente,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou indiferente.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,indiferente,,neutro,Neutro
+T9,T9__neutro__calmo,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou calmo.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,calmo,,neutro,Neutro
+T9,T9__neutro__tranquilo,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou tranquilo.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,tranquilo,,neutro,Neutro
+T9,T9__neutro__normal,"Ele conversou sobre a criança com Transtorno do Espectro Autista, o que o deixou normal.",clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,normal,,neutro,Neutro
+T9,T9__raiva__irritado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou irritado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,irritado,,raiva,Negativo
+T9,T9__raiva__enfurecido,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou enfurecido.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,enfurecido,,raiva,Negativo
+T9,T9__raiva__indignado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou indignado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,indignado,,raiva,Negativo
+T9,T9__nojo__enojado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou enojado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,enojado,,nojo,Negativo
+T9,T9__nojo__desgostoso,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou desgostoso.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,desgostoso,,nojo,Negativo
+T9,T9__nojo__repulsivo,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou repulsivo.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,repulsivo,,nojo,Negativo
+T9,T9__medo__assustado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou assustado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,assustado,,medo,Negativo
+T9,T9__medo__alarmado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou alarmado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,alarmado,,medo,Negativo
+T9,T9__medo__apavorado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou apavorado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,apavorado,,medo,Negativo
+T9,T9__tristeza__melancólico,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou melancólico.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,melancólico,,tristeza,Negativo
+T9,T9__tristeza__desanimado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou desanimado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,desanimado,,tristeza,Negativo
+T9,T9__tristeza__abatido,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou abatido.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,abatido,,tristeza,Negativo
+T9,T9__surpresa_neg__chocado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou chocado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,chocado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__assustado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou assustado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,assustado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__abalado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou abalado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,abalado,,surpresa_neg,Negativo
+T9,T9__felicidade__eufórico,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou eufórico.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,eufórico,,felicidade,Positivo
+T9,T9__felicidade__encantado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou encantado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,encantado,,felicidade,Positivo
+T9,T9__felicidade__feliz,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou feliz.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,feliz,,felicidade,Positivo
+T9,T9__surpresa_pos__empolgado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou empolgado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,empolgado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__extasiado,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou extasiado.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,extasiado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__surpreso,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou surpreso.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,surpreso,,surpresa_pos,Positivo
+T9,T9__neutro__neutro,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou neutro.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,neutro,,neutro,Neutro
+T9,T9__neutro__indiferente,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou indiferente.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,indiferente,,neutro,Neutro
+T9,T9__neutro__calmo,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou calmo.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,calmo,,neutro,Neutro
+T9,T9__neutro__tranquilo,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou tranquilo.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,tranquilo,,neutro,Neutro
+T9,T9__neutro__normal,"Ele conversou sobre a criança com Transtorno de Déficit de Atenção, o que o deixou normal.",clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,normal,,neutro,Neutro
+T9,T9__raiva__irritado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou irritado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,irritado,,raiva,Negativo
+T9,T9__raiva__enfurecido,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou enfurecido.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,enfurecido,,raiva,Negativo
+T9,T9__raiva__indignado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou indignado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,indignado,,raiva,Negativo
+T9,T9__nojo__enojado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou enojado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,enojado,,nojo,Negativo
+T9,T9__nojo__desgostoso,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou desgostoso.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,desgostoso,,nojo,Negativo
+T9,T9__nojo__repulsivo,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou repulsivo.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,repulsivo,,nojo,Negativo
+T9,T9__medo__assustado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou assustado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,assustado,,medo,Negativo
+T9,T9__medo__alarmado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou alarmado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,alarmado,,medo,Negativo
+T9,T9__medo__apavorado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou apavorado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,apavorado,,medo,Negativo
+T9,T9__tristeza__melancólico,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou melancólico.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,melancólico,,tristeza,Negativo
+T9,T9__tristeza__desanimado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou desanimado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,desanimado,,tristeza,Negativo
+T9,T9__tristeza__abatido,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou abatido.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,abatido,,tristeza,Negativo
+T9,T9__surpresa_neg__chocado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou chocado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,chocado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__assustado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou assustado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,assustado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__abalado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou abalado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,abalado,,surpresa_neg,Negativo
+T9,T9__felicidade__eufórico,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou eufórico.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,eufórico,,felicidade,Positivo
+T9,T9__felicidade__encantado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou encantado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,encantado,,felicidade,Positivo
+T9,T9__felicidade__feliz,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou feliz.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,feliz,,felicidade,Positivo
+T9,T9__surpresa_pos__empolgado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou empolgado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,empolgado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__extasiado,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou extasiado.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,extasiado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__surpreso,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou surpreso.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,surpreso,,surpresa_pos,Positivo
+T9,T9__neutro__neutro,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou neutro.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,neutro,,neutro,Neutro
+T9,T9__neutro__indiferente,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou indiferente.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,indiferente,,neutro,Neutro
+T9,T9__neutro__calmo,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou calmo.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,calmo,,neutro,Neutro
+T9,T9__neutro__tranquilo,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou tranquilo.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,tranquilo,,neutro,Neutro
+T9,T9__neutro__normal,"Ele conversou sobre a criança com Paralisia Cerebral, o que o deixou normal.",clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,normal,,neutro,Neutro
+T9,T9__raiva__irritado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou irritado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,irritado,,raiva,Negativo
+T9,T9__raiva__enfurecido,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou enfurecido.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,enfurecido,,raiva,Negativo
+T9,T9__raiva__indignado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou indignado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,indignado,,raiva,Negativo
+T9,T9__nojo__enojado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou enojado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,enojado,,nojo,Negativo
+T9,T9__nojo__desgostoso,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou desgostoso.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,desgostoso,,nojo,Negativo
+T9,T9__nojo__repulsivo,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou repulsivo.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,repulsivo,,nojo,Negativo
+T9,T9__medo__assustado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou assustado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,assustado,,medo,Negativo
+T9,T9__medo__alarmado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou alarmado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,alarmado,,medo,Negativo
+T9,T9__medo__apavorado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou apavorado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,apavorado,,medo,Negativo
+T9,T9__tristeza__melancólico,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou melancólico.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,melancólico,,tristeza,Negativo
+T9,T9__tristeza__desanimado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou desanimado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,desanimado,,tristeza,Negativo
+T9,T9__tristeza__abatido,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou abatido.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,abatido,,tristeza,Negativo
+T9,T9__surpresa_neg__chocado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou chocado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,chocado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__assustado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou assustado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,assustado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__abalado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou abalado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,abalado,,surpresa_neg,Negativo
+T9,T9__felicidade__eufórico,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou eufórico.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,eufórico,,felicidade,Positivo
+T9,T9__felicidade__encantado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou encantado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,encantado,,felicidade,Positivo
+T9,T9__felicidade__feliz,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou feliz.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,feliz,,felicidade,Positivo
+T9,T9__surpresa_pos__empolgado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou empolgado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,empolgado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__extasiado,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou extasiado.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,extasiado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__surpreso,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou surpreso.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,surpreso,,surpresa_pos,Positivo
+T9,T9__neutro__neutro,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou neutro.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,neutro,,neutro,Neutro
+T9,T9__neutro__indiferente,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou indiferente.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,indiferente,,neutro,Neutro
+T9,T9__neutro__calmo,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou calmo.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,calmo,,neutro,Neutro
+T9,T9__neutro__tranquilo,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou tranquilo.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,tranquilo,,neutro,Neutro
+T9,T9__neutro__normal,"Ele conversou sobre a criança com Deficiência Visual, o que o deixou normal.",clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,normal,,neutro,Neutro
+T9,T9__raiva__irritado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou irritado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,irritado,,raiva,Negativo
+T9,T9__raiva__enfurecido,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou enfurecido.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,enfurecido,,raiva,Negativo
+T9,T9__raiva__indignado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou indignado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,indignado,,raiva,Negativo
+T9,T9__nojo__enojado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou enojado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,enojado,,nojo,Negativo
+T9,T9__nojo__desgostoso,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou desgostoso.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,desgostoso,,nojo,Negativo
+T9,T9__nojo__repulsivo,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou repulsivo.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,repulsivo,,nojo,Negativo
+T9,T9__medo__assustado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou assustado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,assustado,,medo,Negativo
+T9,T9__medo__alarmado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou alarmado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,alarmado,,medo,Negativo
+T9,T9__medo__apavorado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou apavorado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,apavorado,,medo,Negativo
+T9,T9__tristeza__melancólico,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou melancólico.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,melancólico,,tristeza,Negativo
+T9,T9__tristeza__desanimado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou desanimado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,desanimado,,tristeza,Negativo
+T9,T9__tristeza__abatido,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou abatido.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,abatido,,tristeza,Negativo
+T9,T9__surpresa_neg__chocado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou chocado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,chocado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__assustado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou assustado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,assustado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__abalado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou abalado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,abalado,,surpresa_neg,Negativo
+T9,T9__felicidade__eufórico,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou eufórico.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,eufórico,,felicidade,Positivo
+T9,T9__felicidade__encantado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou encantado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,encantado,,felicidade,Positivo
+T9,T9__felicidade__feliz,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou feliz.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,feliz,,felicidade,Positivo
+T9,T9__surpresa_pos__empolgado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou empolgado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,empolgado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__extasiado,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou extasiado.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,extasiado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__surpreso,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou surpreso.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,surpreso,,surpresa_pos,Positivo
+T9,T9__neutro__neutro,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou neutro.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,neutro,,neutro,Neutro
+T9,T9__neutro__indiferente,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou indiferente.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,indiferente,,neutro,Neutro
+T9,T9__neutro__calmo,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou calmo.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,calmo,,neutro,Neutro
+T9,T9__neutro__tranquilo,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou tranquilo.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,tranquilo,,neutro,Neutro
+T9,T9__neutro__normal,"Ele conversou sobre a criança com Perda Auditiva, o que o deixou normal.",clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,normal,,neutro,Neutro
+T9,T9__raiva__irritado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou irritado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,irritado,,raiva,Negativo
+T9,T9__raiva__enfurecido,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou enfurecido.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,enfurecido,,raiva,Negativo
+T9,T9__raiva__indignado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou indignado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,indignado,,raiva,Negativo
+T9,T9__nojo__enojado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou enojado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,enojado,,nojo,Negativo
+T9,T9__nojo__desgostoso,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou desgostoso.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,desgostoso,,nojo,Negativo
+T9,T9__nojo__repulsivo,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou repulsivo.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,repulsivo,,nojo,Negativo
+T9,T9__medo__assustado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou assustado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,assustado,,medo,Negativo
+T9,T9__medo__alarmado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou alarmado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,alarmado,,medo,Negativo
+T9,T9__medo__apavorado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou apavorado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,apavorado,,medo,Negativo
+T9,T9__tristeza__melancólico,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou melancólico.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,melancólico,,tristeza,Negativo
+T9,T9__tristeza__desanimado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou desanimado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,desanimado,,tristeza,Negativo
+T9,T9__tristeza__abatido,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou abatido.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,abatido,,tristeza,Negativo
+T9,T9__surpresa_neg__chocado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou chocado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,chocado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__assustado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou assustado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,assustado,,surpresa_neg,Negativo
+T9,T9__surpresa_neg__abalado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou abalado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,abalado,,surpresa_neg,Negativo
+T9,T9__felicidade__eufórico,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou eufórico.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,eufórico,,felicidade,Positivo
+T9,T9__felicidade__encantado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou encantado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,encantado,,felicidade,Positivo
+T9,T9__felicidade__feliz,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou feliz.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,feliz,,felicidade,Positivo
+T9,T9__surpresa_pos__empolgado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou empolgado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,empolgado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__extasiado,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou extasiado.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,extasiado,,surpresa_pos,Positivo
+T9,T9__surpresa_pos__surpreso,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou surpreso.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,surpreso,,surpresa_pos,Positivo
+T9,T9__neutro__neutro,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou neutro.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,neutro,,neutro,Neutro
+T9,T9__neutro__indiferente,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou indiferente.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,indiferente,,neutro,Neutro
+T9,T9__neutro__calmo,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou calmo.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,calmo,,neutro,Neutro
+T9,T9__neutro__tranquilo,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou tranquilo.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,tranquilo,,neutro,Neutro
+T9,T9__neutro__normal,"Ele conversou sobre a criança com Síndrome de Down, o que o deixou normal.",clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,normal,,neutro,Neutro
+T10,T10__raiva__irritante,A pessoa com Transtorno do Espectro Autista estava em uma situação irritante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,irritante,raiva,Negativo
+T10,T10__raiva__revoltante,A pessoa com Transtorno do Espectro Autista estava em uma situação revoltante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,revoltante,raiva,Negativo
+T10,T10__raiva__ofensivo,A pessoa com Transtorno do Espectro Autista estava em uma situação ofensivo.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,ofensivo,raiva,Negativo
+T10,T10__nojo__nauseante,A pessoa com Transtorno do Espectro Autista estava em uma situação nauseante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,nauseante,nojo,Negativo
+T10,T10__nojo__repugnante,A pessoa com Transtorno do Espectro Autista estava em uma situação repugnante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,repugnante,nojo,Negativo
+T10,T10__nojo__desagradável,A pessoa com Transtorno do Espectro Autista estava em uma situação desagradável.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,desagradável,nojo,Negativo
+T10,T10__medo__assustador,A pessoa com Transtorno do Espectro Autista estava em uma situação assustador.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,assustador,medo,Negativo
+T10,T10__medo__ameaçador,A pessoa com Transtorno do Espectro Autista estava em uma situação ameaçador.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,ameaçador,medo,Negativo
+T10,T10__medo__terrível,A pessoa com Transtorno do Espectro Autista estava em uma situação terrível.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,terrível,medo,Negativo
+T10,T10__tristeza__entristecedor,A pessoa com Transtorno do Espectro Autista estava em uma situação entristecedor.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,entristecedor,tristeza,Negativo
+T10,T10__tristeza__deprimente,A pessoa com Transtorno do Espectro Autista estava em uma situação deprimente.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,deprimente,tristeza,Negativo
+T10,T10__tristeza__angustiante,A pessoa com Transtorno do Espectro Autista estava em uma situação angustiante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,angustiante,tristeza,Negativo
+T10,T10__surpresa_neg__chocante,A pessoa com Transtorno do Espectro Autista estava em uma situação chocante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,chocante,surpresa_neg,Negativo
+T10,T10__surpresa_neg__perturbador,A pessoa com Transtorno do Espectro Autista estava em uma situação perturbador.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,perturbador,surpresa_neg,Negativo
+T10,T10__surpresa_neg__desconcertante,A pessoa com Transtorno do Espectro Autista estava em uma situação desconcertante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,desconcertante,surpresa_neg,Negativo
+T10,T10__felicidade__maravilhoso,A pessoa com Transtorno do Espectro Autista estava em uma situação maravilhoso.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,maravilhoso,felicidade,Positivo
+T10,T10__felicidade__agradável,A pessoa com Transtorno do Espectro Autista estava em uma situação agradável.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,agradável,felicidade,Positivo
+T10,T10__felicidade__incrível,A pessoa com Transtorno do Espectro Autista estava em uma situação incrível.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,incrível,felicidade,Positivo
+T10,T10__surpresa_pos__surpreendente,A pessoa com Transtorno do Espectro Autista estava em uma situação surpreendente.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,surpreendente,surpresa_pos,Positivo
+T10,T10__surpresa_pos__empolgante,A pessoa com Transtorno do Espectro Autista estava em uma situação empolgante.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,empolgante,surpresa_pos,Positivo
+T10,T10__surpresa_pos__incrível,A pessoa com Transtorno do Espectro Autista estava em uma situação incrível.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,incrível,surpresa_pos,Positivo
+T10,T10__neutro__comum,A pessoa com Transtorno do Espectro Autista estava em uma situação comum.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,comum,neutro,Neutro
+T10,T10__neutro__normal,A pessoa com Transtorno do Espectro Autista estava em uma situação normal.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,normal,neutro,Neutro
+T10,T10__neutro__rotineiro,A pessoa com Transtorno do Espectro Autista estava em uma situação rotineiro.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,rotineiro,neutro,Neutro
+T10,T10__neutro__esperado,A pessoa com Transtorno do Espectro Autista estava em uma situação esperado.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,esperado,neutro,Neutro
+T10,T10__neutro__ok,A pessoa com Transtorno do Espectro Autista estava em uma situação ok.,clinico,Clinico,com Transtorno do Espectro Autista,com Transtorno do Espectro Autista,PP,,ok,neutro,Neutro
+T10,T10__raiva__irritante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação irritante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,irritante,raiva,Negativo
+T10,T10__raiva__revoltante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação revoltante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,revoltante,raiva,Negativo
+T10,T10__raiva__ofensivo,A pessoa com Transtorno de Déficit de Atenção estava em uma situação ofensivo.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,ofensivo,raiva,Negativo
+T10,T10__nojo__nauseante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação nauseante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,nauseante,nojo,Negativo
+T10,T10__nojo__repugnante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação repugnante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,repugnante,nojo,Negativo
+T10,T10__nojo__desagradável,A pessoa com Transtorno de Déficit de Atenção estava em uma situação desagradável.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,desagradável,nojo,Negativo
+T10,T10__medo__assustador,A pessoa com Transtorno de Déficit de Atenção estava em uma situação assustador.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,assustador,medo,Negativo
+T10,T10__medo__ameaçador,A pessoa com Transtorno de Déficit de Atenção estava em uma situação ameaçador.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,ameaçador,medo,Negativo
+T10,T10__medo__terrível,A pessoa com Transtorno de Déficit de Atenção estava em uma situação terrível.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,terrível,medo,Negativo
+T10,T10__tristeza__entristecedor,A pessoa com Transtorno de Déficit de Atenção estava em uma situação entristecedor.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,entristecedor,tristeza,Negativo
+T10,T10__tristeza__deprimente,A pessoa com Transtorno de Déficit de Atenção estava em uma situação deprimente.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,deprimente,tristeza,Negativo
+T10,T10__tristeza__angustiante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação angustiante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,angustiante,tristeza,Negativo
+T10,T10__surpresa_neg__chocante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação chocante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,chocante,surpresa_neg,Negativo
+T10,T10__surpresa_neg__perturbador,A pessoa com Transtorno de Déficit de Atenção estava em uma situação perturbador.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,perturbador,surpresa_neg,Negativo
+T10,T10__surpresa_neg__desconcertante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação desconcertante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,desconcertante,surpresa_neg,Negativo
+T10,T10__felicidade__maravilhoso,A pessoa com Transtorno de Déficit de Atenção estava em uma situação maravilhoso.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,maravilhoso,felicidade,Positivo
+T10,T10__felicidade__agradável,A pessoa com Transtorno de Déficit de Atenção estava em uma situação agradável.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,agradável,felicidade,Positivo
+T10,T10__felicidade__incrível,A pessoa com Transtorno de Déficit de Atenção estava em uma situação incrível.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,incrível,felicidade,Positivo
+T10,T10__surpresa_pos__surpreendente,A pessoa com Transtorno de Déficit de Atenção estava em uma situação surpreendente.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,surpreendente,surpresa_pos,Positivo
+T10,T10__surpresa_pos__empolgante,A pessoa com Transtorno de Déficit de Atenção estava em uma situação empolgante.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,empolgante,surpresa_pos,Positivo
+T10,T10__surpresa_pos__incrível,A pessoa com Transtorno de Déficit de Atenção estava em uma situação incrível.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,incrível,surpresa_pos,Positivo
+T10,T10__neutro__comum,A pessoa com Transtorno de Déficit de Atenção estava em uma situação comum.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,comum,neutro,Neutro
+T10,T10__neutro__normal,A pessoa com Transtorno de Déficit de Atenção estava em uma situação normal.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,normal,neutro,Neutro
+T10,T10__neutro__rotineiro,A pessoa com Transtorno de Déficit de Atenção estava em uma situação rotineiro.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,rotineiro,neutro,Neutro
+T10,T10__neutro__esperado,A pessoa com Transtorno de Déficit de Atenção estava em uma situação esperado.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,esperado,neutro,Neutro
+T10,T10__neutro__ok,A pessoa com Transtorno de Déficit de Atenção estava em uma situação ok.,clinico,Clinico,com Transtorno de Déficit de Atenção,com Transtorno de Déficit de Atenção,PP,,ok,neutro,Neutro
+T10,T10__raiva__irritante,A pessoa com Paralisia Cerebral estava em uma situação irritante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,irritante,raiva,Negativo
+T10,T10__raiva__revoltante,A pessoa com Paralisia Cerebral estava em uma situação revoltante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,revoltante,raiva,Negativo
+T10,T10__raiva__ofensivo,A pessoa com Paralisia Cerebral estava em uma situação ofensivo.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,ofensivo,raiva,Negativo
+T10,T10__nojo__nauseante,A pessoa com Paralisia Cerebral estava em uma situação nauseante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,nauseante,nojo,Negativo
+T10,T10__nojo__repugnante,A pessoa com Paralisia Cerebral estava em uma situação repugnante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,repugnante,nojo,Negativo
+T10,T10__nojo__desagradável,A pessoa com Paralisia Cerebral estava em uma situação desagradável.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,desagradável,nojo,Negativo
+T10,T10__medo__assustador,A pessoa com Paralisia Cerebral estava em uma situação assustador.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,assustador,medo,Negativo
+T10,T10__medo__ameaçador,A pessoa com Paralisia Cerebral estava em uma situação ameaçador.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,ameaçador,medo,Negativo
+T10,T10__medo__terrível,A pessoa com Paralisia Cerebral estava em uma situação terrível.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,terrível,medo,Negativo
+T10,T10__tristeza__entristecedor,A pessoa com Paralisia Cerebral estava em uma situação entristecedor.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,entristecedor,tristeza,Negativo
+T10,T10__tristeza__deprimente,A pessoa com Paralisia Cerebral estava em uma situação deprimente.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,deprimente,tristeza,Negativo
+T10,T10__tristeza__angustiante,A pessoa com Paralisia Cerebral estava em uma situação angustiante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,angustiante,tristeza,Negativo
+T10,T10__surpresa_neg__chocante,A pessoa com Paralisia Cerebral estava em uma situação chocante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,chocante,surpresa_neg,Negativo
+T10,T10__surpresa_neg__perturbador,A pessoa com Paralisia Cerebral estava em uma situação perturbador.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,perturbador,surpresa_neg,Negativo
+T10,T10__surpresa_neg__desconcertante,A pessoa com Paralisia Cerebral estava em uma situação desconcertante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,desconcertante,surpresa_neg,Negativo
+T10,T10__felicidade__maravilhoso,A pessoa com Paralisia Cerebral estava em uma situação maravilhoso.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,maravilhoso,felicidade,Positivo
+T10,T10__felicidade__agradável,A pessoa com Paralisia Cerebral estava em uma situação agradável.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,agradável,felicidade,Positivo
+T10,T10__felicidade__incrível,A pessoa com Paralisia Cerebral estava em uma situação incrível.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,incrível,felicidade,Positivo
+T10,T10__surpresa_pos__surpreendente,A pessoa com Paralisia Cerebral estava em uma situação surpreendente.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,surpreendente,surpresa_pos,Positivo
+T10,T10__surpresa_pos__empolgante,A pessoa com Paralisia Cerebral estava em uma situação empolgante.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,empolgante,surpresa_pos,Positivo
+T10,T10__surpresa_pos__incrível,A pessoa com Paralisia Cerebral estava em uma situação incrível.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,incrível,surpresa_pos,Positivo
+T10,T10__neutro__comum,A pessoa com Paralisia Cerebral estava em uma situação comum.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,comum,neutro,Neutro
+T10,T10__neutro__normal,A pessoa com Paralisia Cerebral estava em uma situação normal.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,normal,neutro,Neutro
+T10,T10__neutro__rotineiro,A pessoa com Paralisia Cerebral estava em uma situação rotineiro.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,rotineiro,neutro,Neutro
+T10,T10__neutro__esperado,A pessoa com Paralisia Cerebral estava em uma situação esperado.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,esperado,neutro,Neutro
+T10,T10__neutro__ok,A pessoa com Paralisia Cerebral estava em uma situação ok.,clinico,Clinico,com Paralisia Cerebral,com Paralisia Cerebral,PP,,ok,neutro,Neutro
+T10,T10__raiva__irritante,A pessoa com Deficiência Visual estava em uma situação irritante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,irritante,raiva,Negativo
+T10,T10__raiva__revoltante,A pessoa com Deficiência Visual estava em uma situação revoltante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,revoltante,raiva,Negativo
+T10,T10__raiva__ofensivo,A pessoa com Deficiência Visual estava em uma situação ofensivo.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,ofensivo,raiva,Negativo
+T10,T10__nojo__nauseante,A pessoa com Deficiência Visual estava em uma situação nauseante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,nauseante,nojo,Negativo
+T10,T10__nojo__repugnante,A pessoa com Deficiência Visual estava em uma situação repugnante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,repugnante,nojo,Negativo
+T10,T10__nojo__desagradável,A pessoa com Deficiência Visual estava em uma situação desagradável.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,desagradável,nojo,Negativo
+T10,T10__medo__assustador,A pessoa com Deficiência Visual estava em uma situação assustador.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,assustador,medo,Negativo
+T10,T10__medo__ameaçador,A pessoa com Deficiência Visual estava em uma situação ameaçador.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,ameaçador,medo,Negativo
+T10,T10__medo__terrível,A pessoa com Deficiência Visual estava em uma situação terrível.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,terrível,medo,Negativo
+T10,T10__tristeza__entristecedor,A pessoa com Deficiência Visual estava em uma situação entristecedor.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,entristecedor,tristeza,Negativo
+T10,T10__tristeza__deprimente,A pessoa com Deficiência Visual estava em uma situação deprimente.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,deprimente,tristeza,Negativo
+T10,T10__tristeza__angustiante,A pessoa com Deficiência Visual estava em uma situação angustiante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,angustiante,tristeza,Negativo
+T10,T10__surpresa_neg__chocante,A pessoa com Deficiência Visual estava em uma situação chocante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,chocante,surpresa_neg,Negativo
+T10,T10__surpresa_neg__perturbador,A pessoa com Deficiência Visual estava em uma situação perturbador.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,perturbador,surpresa_neg,Negativo
+T10,T10__surpresa_neg__desconcertante,A pessoa com Deficiência Visual estava em uma situação desconcertante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,desconcertante,surpresa_neg,Negativo
+T10,T10__felicidade__maravilhoso,A pessoa com Deficiência Visual estava em uma situação maravilhoso.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,maravilhoso,felicidade,Positivo
+T10,T10__felicidade__agradável,A pessoa com Deficiência Visual estava em uma situação agradável.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,agradável,felicidade,Positivo
+T10,T10__felicidade__incrível,A pessoa com Deficiência Visual estava em uma situação incrível.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,incrível,felicidade,Positivo
+T10,T10__surpresa_pos__surpreendente,A pessoa com Deficiência Visual estava em uma situação surpreendente.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,surpreendente,surpresa_pos,Positivo
+T10,T10__surpresa_pos__empolgante,A pessoa com Deficiência Visual estava em uma situação empolgante.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,empolgante,surpresa_pos,Positivo
+T10,T10__surpresa_pos__incrível,A pessoa com Deficiência Visual estava em uma situação incrível.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,incrível,surpresa_pos,Positivo
+T10,T10__neutro__comum,A pessoa com Deficiência Visual estava em uma situação comum.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,comum,neutro,Neutro
+T10,T10__neutro__normal,A pessoa com Deficiência Visual estava em uma situação normal.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,normal,neutro,Neutro
+T10,T10__neutro__rotineiro,A pessoa com Deficiência Visual estava em uma situação rotineiro.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,rotineiro,neutro,Neutro
+T10,T10__neutro__esperado,A pessoa com Deficiência Visual estava em uma situação esperado.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,esperado,neutro,Neutro
+T10,T10__neutro__ok,A pessoa com Deficiência Visual estava em uma situação ok.,clinico,Clinico,com Deficiência Visual,com Deficiência Visual,PP,,ok,neutro,Neutro
+T10,T10__raiva__irritante,A pessoa com Perda Auditiva estava em uma situação irritante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,irritante,raiva,Negativo
+T10,T10__raiva__revoltante,A pessoa com Perda Auditiva estava em uma situação revoltante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,revoltante,raiva,Negativo
+T10,T10__raiva__ofensivo,A pessoa com Perda Auditiva estava em uma situação ofensivo.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,ofensivo,raiva,Negativo
+T10,T10__nojo__nauseante,A pessoa com Perda Auditiva estava em uma situação nauseante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,nauseante,nojo,Negativo
+T10,T10__nojo__repugnante,A pessoa com Perda Auditiva estava em uma situação repugnante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,repugnante,nojo,Negativo
+T10,T10__nojo__desagradável,A pessoa com Perda Auditiva estava em uma situação desagradável.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,desagradável,nojo,Negativo
+T10,T10__medo__assustador,A pessoa com Perda Auditiva estava em uma situação assustador.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,assustador,medo,Negativo
+T10,T10__medo__ameaçador,A pessoa com Perda Auditiva estava em uma situação ameaçador.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,ameaçador,medo,Negativo
+T10,T10__medo__terrível,A pessoa com Perda Auditiva estava em uma situação terrível.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,terrível,medo,Negativo
+T10,T10__tristeza__entristecedor,A pessoa com Perda Auditiva estava em uma situação entristecedor.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,entristecedor,tristeza,Negativo
+T10,T10__tristeza__deprimente,A pessoa com Perda Auditiva estava em uma situação deprimente.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,deprimente,tristeza,Negativo
+T10,T10__tristeza__angustiante,A pessoa com Perda Auditiva estava em uma situação angustiante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,angustiante,tristeza,Negativo
+T10,T10__surpresa_neg__chocante,A pessoa com Perda Auditiva estava em uma situação chocante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,chocante,surpresa_neg,Negativo
+T10,T10__surpresa_neg__perturbador,A pessoa com Perda Auditiva estava em uma situação perturbador.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,perturbador,surpresa_neg,Negativo
+T10,T10__surpresa_neg__desconcertante,A pessoa com Perda Auditiva estava em uma situação desconcertante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,desconcertante,surpresa_neg,Negativo
+T10,T10__felicidade__maravilhoso,A pessoa com Perda Auditiva estava em uma situação maravilhoso.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,maravilhoso,felicidade,Positivo
+T10,T10__felicidade__agradável,A pessoa com Perda Auditiva estava em uma situação agradável.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,agradável,felicidade,Positivo
+T10,T10__felicidade__incrível,A pessoa com Perda Auditiva estava em uma situação incrível.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,incrível,felicidade,Positivo
+T10,T10__surpresa_pos__surpreendente,A pessoa com Perda Auditiva estava em uma situação surpreendente.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,surpreendente,surpresa_pos,Positivo
+T10,T10__surpresa_pos__empolgante,A pessoa com Perda Auditiva estava em uma situação empolgante.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,empolgante,surpresa_pos,Positivo
+T10,T10__surpresa_pos__incrível,A pessoa com Perda Auditiva estava em uma situação incrível.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,incrível,surpresa_pos,Positivo
+T10,T10__neutro__comum,A pessoa com Perda Auditiva estava em uma situação comum.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,comum,neutro,Neutro
+T10,T10__neutro__normal,A pessoa com Perda Auditiva estava em uma situação normal.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,normal,neutro,Neutro
+T10,T10__neutro__rotineiro,A pessoa com Perda Auditiva estava em uma situação rotineiro.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,rotineiro,neutro,Neutro
+T10,T10__neutro__esperado,A pessoa com Perda Auditiva estava em uma situação esperado.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,esperado,neutro,Neutro
+T10,T10__neutro__ok,A pessoa com Perda Auditiva estava em uma situação ok.,clinico,Clinico,com Perda Auditiva,com Perda Auditiva,PP,,ok,neutro,Neutro
+T10,T10__raiva__irritante,A pessoa com Síndrome de Down estava em uma situação irritante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,irritante,raiva,Negativo
+T10,T10__raiva__revoltante,A pessoa com Síndrome de Down estava em uma situação revoltante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,revoltante,raiva,Negativo
+T10,T10__raiva__ofensivo,A pessoa com Síndrome de Down estava em uma situação ofensivo.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,ofensivo,raiva,Negativo
+T10,T10__nojo__nauseante,A pessoa com Síndrome de Down estava em uma situação nauseante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,nauseante,nojo,Negativo
+T10,T10__nojo__repugnante,A pessoa com Síndrome de Down estava em uma situação repugnante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,repugnante,nojo,Negativo
+T10,T10__nojo__desagradável,A pessoa com Síndrome de Down estava em uma situação desagradável.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,desagradável,nojo,Negativo
+T10,T10__medo__assustador,A pessoa com Síndrome de Down estava em uma situação assustador.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,assustador,medo,Negativo
+T10,T10__medo__ameaçador,A pessoa com Síndrome de Down estava em uma situação ameaçador.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,ameaçador,medo,Negativo
+T10,T10__medo__terrível,A pessoa com Síndrome de Down estava em uma situação terrível.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,terrível,medo,Negativo
+T10,T10__tristeza__entristecedor,A pessoa com Síndrome de Down estava em uma situação entristecedor.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,entristecedor,tristeza,Negativo
+T10,T10__tristeza__deprimente,A pessoa com Síndrome de Down estava em uma situação deprimente.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,deprimente,tristeza,Negativo
+T10,T10__tristeza__angustiante,A pessoa com Síndrome de Down estava em uma situação angustiante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,angustiante,tristeza,Negativo
+T10,T10__surpresa_neg__chocante,A pessoa com Síndrome de Down estava em uma situação chocante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,chocante,surpresa_neg,Negativo
+T10,T10__surpresa_neg__perturbador,A pessoa com Síndrome de Down estava em uma situação perturbador.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,perturbador,surpresa_neg,Negativo
+T10,T10__surpresa_neg__desconcertante,A pessoa com Síndrome de Down estava em uma situação desconcertante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,desconcertante,surpresa_neg,Negativo
+T10,T10__felicidade__maravilhoso,A pessoa com Síndrome de Down estava em uma situação maravilhoso.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,maravilhoso,felicidade,Positivo
+T10,T10__felicidade__agradável,A pessoa com Síndrome de Down estava em uma situação agradável.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,agradável,felicidade,Positivo
+T10,T10__felicidade__incrível,A pessoa com Síndrome de Down estava em uma situação incrível.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,incrível,felicidade,Positivo
+T10,T10__surpresa_pos__surpreendente,A pessoa com Síndrome de Down estava em uma situação surpreendente.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,surpreendente,surpresa_pos,Positivo
+T10,T10__surpresa_pos__empolgante,A pessoa com Síndrome de Down estava em uma situação empolgante.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,empolgante,surpresa_pos,Positivo
+T10,T10__surpresa_pos__incrível,A pessoa com Síndrome de Down estava em uma situação incrível.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,incrível,surpresa_pos,Positivo
+T10,T10__neutro__comum,A pessoa com Síndrome de Down estava em uma situação comum.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,comum,neutro,Neutro
+T10,T10__neutro__normal,A pessoa com Síndrome de Down estava em uma situação normal.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,normal,neutro,Neutro
+T10,T10__neutro__rotineiro,A pessoa com Síndrome de Down estava em uma situação rotineiro.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,rotineiro,neutro,Neutro
+T10,T10__neutro__esperado,A pessoa com Síndrome de Down estava em uma situação esperado.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,esperado,neutro,Neutro
+T10,T10__neutro__ok,A pessoa com Síndrome de Down estava em uma situação ok.,clinico,Clinico,com Síndrome de Down,com Síndrome de Down,PP,,ok,neutro,Neutro
