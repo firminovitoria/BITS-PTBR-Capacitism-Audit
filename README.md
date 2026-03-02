@@ -123,61 +123,59 @@ O protocolo de **Perturbation Sensitivity Analysis (PSA)** avalia a sensibilidad
 
 ---
 
-### 🔁 Pareamento Controle vs. Perturbado
+## Pareamento de Instâncias: $x$ e $x_n$
 
-Para cada sentença perturbada $$x_n$$, constrói-se uma sentença controle correspondente $$x$$, com:
+A avaliação foi conduzida por meio de comparações pareadas entre sentenças estruturalmente equivalentes. Para cada instância gerada com um termo de um grupo-alvo (denotada $x_n$), construiu-se uma instância de controle correspondente (denotada $x$), definida como a mesma sentença, proveniente do mesmo template e da mesma configuração emocional, diferindo apenas pela ausência do termo do grupo-alvo. Esse pareamento permite interpretar a inserção do termo como uma *perturbação mínima* no enunciado, reduzindo a influência de variáveis de confusão.
 
-- mesmo template sintático  
-- mesma configuração emocional  
-- mesma estrutura lexical  
-
-diferindo **exclusivamente** pela ausência do termo no slot `<condição>`.
-
-Sejam:
-
-- $$T$$ o conjunto de templates  
-- $$E$$ o conjunto de configurações emocionais (quando aplicável)  
-- $$\tau \in g$$ um termo pertencente ao grupo semântico $$g$$  
-
-Define-se o pareamento:
+Formalmente, seja $\mathcal{T}$ o conjunto de templates do BITS-PTBR e $\mathcal{E}$ a configuração emocional associada ao template (quando aplicável). Para cada combinação $(t,e)\in \mathcal{T}\times\mathcal{E}$ e para cada termo $\tau$ pertencente a um grupo $g$ (clínico, discurso social, sem deficiência ou neutro), gera-se uma sentença:
 
 $$
-x_n = \text{render}(t, e, \tau)
+x_n = \mathrm{render}(t,e,\tau)
 $$
 
+O controle correspondente é definido como:
+
 $$
-x = \text{render}(t, e, \varnothing)
+x = \mathrm{render}(t,e,\varnothing)
 $$
 
-onde $$\varnothing$$ indica a remoção do termo no marcador `<condição>`.
+em que $\varnothing$ indica a remoção do termo no slot `<condição>`. Em seguida, computa-se a resposta do modelo para ambos os enunciados.
+
+Essa estratégia é coerente com o objetivo do BITS, pois permite comparar *contextos equivalentes* e atribuir diferenças de predição à presença do marcador lexical, em vez de alterações de conteúdo ou estrutura.
 
 ---
 
-### 🎯 Escores por tarefa
+## Escore de Saída por Tarefa
 
-O PSA requer uma função escalar:
+O PSA requer uma função escalar $f(\cdot)$ que mapeie uma sentença para um valor contínuo, permitindo medir variações sob perturbação. Para cada modelo avaliado, definiu-se um escore de saída conforme a natureza da tarefa:
 
-$$
-f : \mathcal{X} \rightarrow \mathbb{R}
-$$
+### Sentimento (BERTweet-PT)
 
-que mapeia uma sentença $$x$$ para um valor contínuo.
-
-#### (a) Sentimento (BERTweet-PT)
+O modelo produz probabilidades para classes de polaridade. A saída escalar foi definida como:
 
 $$
-f_{\text{sent}}(x) = P(\text{Pos}) - P(\text{Neg}), \quad f_{\text{sent}}(x) \in [-1,1]
+f_{\text{sent}}(x) = P(\text{Pos}) - P(\text{Neg})
 $$
 
-#### (b) Toxicidade (BERTimbau-PT)
+com domínio $[-1,1]$, de forma que valores maiores indicam maior positividade e valores menores indicam maior negatividade.
+
+---
+
+### Toxicidade (BERTimbau-PT)
+
+O modelo produz uma distribuição binária; adotou-se:
 
 $$
-f_{\text{tox1}}(x) = P(\text{Tóxico}), \quad f_{\text{tox1}}(x) \in [0,1]
+f_{\text{tox1}}(x) = P(\text{Tóxico}), \quad f_{\text{tox1}}(x)\in[0,1]
 $$
 
-#### (c) Toxicidade (ToxiGuardrail-PT)
+em que valores maiores indicam maior probabilidade de toxicidade.
 
-O modelo retorna um logit $$\ell$$ associado à classe segura. A pontuação de toxicidade é obtida por:
+---
+
+### Toxicidade (ToxiGuardrail-PT)
+
+O modelo retorna um logit $\ell$ associado à segurança. Para padronização interpretativa, utilizou-se:
 
 $$
 f_{\text{tox2}}(x) = 1 - \sigma(\ell)
@@ -189,95 +187,110 @@ $$
 \sigma(\ell) = \frac{1}{1 + e^{-\ell}}
 $$
 
+De modo que valores maiores correspondem a maior toxicidade estimada.
+
 ---
 
-### 📐 Métricas: Δ e ScoreSense
+## Sensibilidade à Perturbação: $\Delta$ e *ScoreSense*
 
-#### Delta (variação por par)
+Dado um par $(x, x_n)$, define-se a variação de predição (*delta*) como:
 
 $$
 \Delta(x, x_n) = f(x_n) - f(x)
 $$
 
-Interpretação: quantifica o deslocamento da predição causado exclusivamente pela inserção do termo do grupo.
+No contexto deste trabalho, $\Delta$ quantifica o quanto a inserção do termo do grupo altera a polaridade ou a toxicidade prevista pelo modelo, mantendo o restante do enunciado constante.
 
-#### ScoreSense (efeito médio por grupo)
-
-Seja $$P_g$$ o conjunto de pares cujo termo instanciado pertence ao grupo $$g$$. Define-se:
+Para resumir o efeito em nível de grupo, foi utilizado o *ScoreSense*, definido como a média dos deltas em um conjunto de pares associados a um grupo $g$:
 
 $$
-ScoreSense(g) = \frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\Delta(x,x_n)
+\mathrm{ScoreSense}(g) = \frac{1}{|P_g|}\sum_{(x,x_n)\in P_g} \Delta(x,x_n)
 $$
+
+onde $P_g$ representa o conjunto de pares cujo termo instanciado pertence ao grupo $g$.
+
+Valores positivos de $\mathrm{ScoreSense}$ indicam que a inserção do termo tende a *aumentar* a predição (por exemplo, aumentar toxicidade ou positividade, conforme a tarefa), enquanto valores negativos indicam uma *redução*. Para garantir interpretabilidade, os resultados foram reportados separadamente por tarefa e por modelo.
 
 ---
 
-### 📈 Significância estatística: t-test
+## Significância Estatística: *t-test* pareado  
+### ($H_0$: $\mathbb{E}[\Delta]=0$)
 
-Para verificar se as variações observadas diferem estatisticamente de zero, aplica-se teste de hipótese sobre o conjunto de deltas.
-
-Hipótese nula:
+Para verificar se as variações observadas são estatisticamente diferentes de zero, aplicou-se um teste de hipótese por grupo. Considerando o conjunto de deltas $\{\Delta_i\}_{i=1}^{|P_g|}$ para um grupo $g$, testou-se a hipótese nula:
 
 $$
 H_0: \mathbb{E}[\Delta] = 0
 $$
 
-Hipótese alternativa:
+contra a hipótese alternativa:
 
 $$
 H_1: \mathbb{E}[\Delta] \neq 0
 $$
 
-Na prática, utiliza-se t-test uniamostral sobre os valores de $$\Delta$$ (equivalente ao teste t pareado quando aplicado às diferenças entre pares).
+Na prática, foi utilizado o *t-test* uniamostral sobre os deltas (equivalente a um teste pareado quando a estatística é calculada sobre a diferença entre pares), conduzido separadamente para cada grupo. Um $p$-valor abaixo do nível de significância adotado (por exemplo, $\alpha=0.05$) indica evidência de que o modelo é sistematicamente sensível à inserção do termo sob o delineamento experimental controlado.
 
 ---
 
-### 🔄 Mudança decisória: LabelDist e FlipRate
+## Mudança Decisória: *LabelDist* e Taxa de *Flip*
 
-Além da variação contínua dos escores, avalia-se o impacto da perturbação em decisões discretas do modelo (especialmente na tarefa de toxicidade).
-
-#### Função de decisão por limiar
+Além da variação contínua dos escores, avaliou-se o impacto da perturbação nas decisões discretas dos modelos, sobretudo na tarefa de toxicidade. Para tanto, definiu-se uma função de decisão $d(\cdot)$ baseada em limiar:
 
 $$
 d(x)=
 \begin{cases}
-1, & \text{se } f(x)\ge 0.5 \\
+1, & \text{se } f(x) \geq 0.5 \\
 0, & \text{caso contrário}
 \end{cases}
 $$
 
-onde $$1$$ representa classe tóxica e $$0$$ representa classe não tóxica.
+em que $1$ representa a classe *tóxica* e $0$ a classe *não tóxica*.
 
-#### LabelDist (distância de Jaccard)
+Para cada grupo $g$, comparou-se o conjunto de decisões do controle e do perturbado por meio da distância de Jaccard (*LabelDist*) calculada sobre os índices de instâncias classificadas como tóxicas.
 
 Sejam:
 
 $$
-A_g = \{ i \mid d(x_i)=1 \}
+A_g = \{i \mid d(x_i)=1\}
 $$
 
 $$
-B_g = \{ i \mid d(x_{n,i})=1 \}
+B_g = \{i \mid d(x_{n,i})=1\}
 $$
 
-Define-se:
+A *LabelDist* é definida como:
 
 $$
-LabelDist(g)=1-\frac{|A_g\cap B_g|}{|A_g\cup B_g|}
+\mathrm{LabelDist}(g) = 1 - \frac{|A_g \cap B_g|}{|A_g \cup B_g|}
 $$
 
-Se $$A_g\cup B_g=\varnothing$$, define-se:
+Quando $A_g \cup B_g = \varnothing$, define-se:
 
 $$
-LabelDist(g)=0
+\mathrm{LabelDist}(g)=0
 $$
 
-#### FlipRate (taxa de inversão de rótulo)
+Complementarmente, reportou-se a taxa de mudança decisória (*flip rate*), definida como a proporção de pares em que a decisão muda após a perturbação:
 
 $$
-FlipRate(g)=\frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\mathbb{I}\left[d(x)\ne d(x_n)\right]
+\mathrm{FlipRate}(g) = \frac{1}{|P_g|}\sum_{(x,x_n)\in P_g} \mathbb{I}\left[d(x)\neq d(x_n)\right]
 $$
 
-onde $$\mathbb{I}(\cdot)$$ é a função indicadora.
+onde $\mathbb{I}$ é a função indicadora.
+
+Essas métricas são relevantes por quantificarem não apenas a mudança média de escore, mas o impacto potencial em decisões de moderação: por exemplo, um aumento sistemático de $P(\text{Tóxico})$ pode se traduzir em maior frequência de rotulagem como tóxico para sentenças que mencionam deficiência, mesmo na ausência de conteúdo ofensivo.
+
+---
+
+## Justificativa do Protocolo
+
+O PSA aplicado ao BITS-PTBR oferece três vantagens metodológicas centrais:
+
+1. O pareamento $x$ vs. $x_n$ elimina grande parte da variabilidade contextual, permitindo atribuir variações de predição a um único elemento lexical.
+2. A combinação de métricas contínuas (*ScoreSense*) e discretas (*LabelDist* / *FlipRate*) fornece uma caracterização mais completa do comportamento dos modelos, capturando tanto deslocamentos sutis quanto mudanças decisórias.
+3. A aplicação do teste estatístico por grupo aumenta a robustez inferencial, distinguindo flutuações aleatórias de efeitos sistemáticos.
+
+Em conjunto, o protocolo viabiliza uma auditoria replicável e controlada sobre como modelos em português respondem a marcadores de deficiência, contribuindo para a discussão sobre responsabilidade algorítmica e riscos de discriminação automatizada.
 
 
 ---
