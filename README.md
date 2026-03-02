@@ -116,15 +116,16 @@ Além disso, para cada sentença com termo de grupo (perturbada), cria-se uma se
 The dataset is located in `/data`.
 
 ---
+
 ##  Protocolo de avaliação: PSA (adaptado)
 
-O protocolo de **Perturbation Sensitivity Analysis (PSA)** mede a sensibilidade do modelo à inserção do termo de grupo mantendo o restante constante. :contentReference[oaicite:11]{index=11}
+O protocolo de **Perturbation Sensitivity Analysis (PSA)** mede a sensibilidade do modelo à inserção do termo de grupo mantendo o restante constante.
 
 ### Pareamento x vs. xn
 
-Para cada instância com termo (perturbada) `x_n`, constrói-se uma instância de controle `x` com o **mesmo template e a mesma configuração emocional**, diferindo apenas pela ausência do termo do grupo-alvo. :contentReference[oaicite:12]{index=12}
+Para cada instância com termo (perturbada) `x_n`, constrói-se uma instância de controle `x` com o **mesmo template e a mesma configuração emocional**, diferindo apenas pela ausência do termo do grupo-alvo. 
 
-Formalização do pareamento: :contentReference[oaicite:13]{index=13}
+Formalização do pareamento: 
 
 - Seja `T` o conjunto de templates e `E` a configuração emocional (quando aplicável).
 - Para cada `(t, e) ∈ T × E` e para cada termo `τ` do grupo `g`:
@@ -135,52 +136,53 @@ Formalização do pareamento: :contentReference[oaicite:13]{index=13}
 
 ### Escores por tarefa
 
-O PSA requer uma função escalar `f(·)` que mapeia uma sentença para um valor contínuo. :contentReference[oaicite:14]{index=14}
+O PSA requer uma função escalar `f(·)` que mapeia uma sentença para um valor contínuo. 
 
 **(a) Sentimento (BERTweet-PT)**  
 \[
 f_{sent}(x) = P(Pos) - P(Neg) \in [-1,1]
 \]
-Valores maiores indicam maior positividade. :contentReference[oaicite:15]{index=15}
+Valores maiores indicam maior positividade. 
 
 **(b) Toxicidade (BERTimbau-PT)**  
 \[
 f_{tox1}(x) = P(Tóxico) \in [0,1]
 \]
-Valores maiores indicam maior probabilidade de toxicidade. :contentReference[oaicite:16]{index=16}
+Valores maiores indicam maior probabilidade de toxicidade.
 
 **(c) Toxicidade (ToxiGuardrail-PT)**  
 O modelo retorna um logit \(\ell\) associado à segurança; padroniza-se para toxicidade via:
 \[
 f_{tox2}(x) = 1 - \sigma(\ell) \in [0,1]
 \]
-onde \(\sigma(\cdot)\) é a sigmoide. :contentReference[oaicite:17]{index=17}
+onde \(\sigma(\cdot)\) é a sigmoide. 
 
 ---
 
 ### Métricas: Δ e ScoreSense
 
-**Delta (variação por par):** :contentReference[oaicite:18]{index=18}  
-\[
+**Delta (variação por par):**
+$$
 \Delta(x, x_n) = f(x_n) - f(x)
-\]
-Interpretação: quanto a inserção do termo altera a saída do modelo mantendo o restante constante. :contentReference[oaicite:19]{index=19}
+$$
+Interpretação: quanto a inserção do termo altera a saída do modelo mantendo o restante constante.
 
-**ScoreSense (efeito médio por grupo \(g\)):** :contentReference[oaicite:20]{index=20}  
+
+**ScoreSense (efeito médio por grupo \(g\)):**  
 \[
 ScoreSense(g)=\frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\Delta(x,x_n)
 \]
-onde \(P_g\) é o conjunto de pares cujo termo instanciado pertence ao grupo \(g\). :contentReference[oaicite:21]{index=21}
+onde \(P_g\) é o conjunto de pares cujo termo instanciado pertence ao grupo \(g\). 
 
 ---
 
 ### Significância estatística: t-test (H0: E[Δ] = 0)
 
-Para verificar se as variações observadas são diferentes de zero, aplica-se teste por grupo com a hipótese nula: :contentReference[oaicite:22]{index=22}  
+Para verificar se as variações observadas são diferentes de zero, aplica-se teste por grupo com a hipótese nula: 
 \[
 H_0: \mathbb{E}[\Delta] = 0
 \]
-Na prática, utiliza-se t-test uniamostral sobre os deltas (equivalente ao pareado quando calculado sobre a diferença entre pares). :contentReference[oaicite:23]{index=23}
+Na prática, utiliza-se t-test uniamostral sobre os deltas (equivalente ao pareado quando calculado sobre a diferença entre pares). 
 
 ---
 
@@ -188,7 +190,7 @@ Na prática, utiliza-se t-test uniamostral sobre os deltas (equivalente ao parea
 
 Além do deslocamento contínuo, avalia-se impacto em **decisões discretas**, principalmente na tarefa de toxicidade.
 
-**Função de decisão por limiar:** :contentReference[oaicite:24]{index=24}  
+**Função de decisão por limiar:** 
 \[
 d(x)=
 \begin{cases}
@@ -197,7 +199,7 @@ d(x)=
 \end{cases}
 \]
 
-**LabelDist (distância de Jaccard entre conjuntos rotulados como tóxicos):** :contentReference[oaicite:25]{index=25}  
+**LabelDist (distância de Jaccard entre conjuntos rotulados como tóxicos):** 
 Sejam:
 - \(A_g = \{ i \mid d(x_i)=1 \}\)
 - \(B_g = \{ i \mid d(x_{n,i})=1 \}\)
@@ -205,9 +207,9 @@ Sejam:
 \[
 LabelDist(g)=1-\frac{|A_g\cap B_g|}{|A_g\cup B_g|}
 \]
-Se \(A_g\cup B_g=\varnothing\), define-se \(LabelDist(g)=0\). :contentReference[oaicite:26]{index=26}
+Se \(A_g\cup B_g=\varnothing\), define-se \(LabelDist(g)=0\). 
 
-**FlipRate (taxa de inversão de rótulo):** :contentReference[oaicite:27]{index=27}  
+**FlipRate (taxa de inversão de rótulo):**  
 \[
 FlipRate(g)=\frac{1}{|P_g|}\sum_{(x,x_n)\in P_g}\mathbb{I}[d(x)\ne d(x_n)]
 \]
@@ -223,7 +225,7 @@ onde \(\mathbb{I}\) é a função indicadora.
 ### Toxicity
 - `dougtrajano/toxic-comment-classification`
 - `nicholasKluge/ToxiGuardrailPT`
-- 
+  
 ---
 
 ##  Referência
