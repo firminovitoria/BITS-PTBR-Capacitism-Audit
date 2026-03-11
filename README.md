@@ -129,15 +129,15 @@ The dataset is located in `/data`.
 
 ---
 
-## 4. Modelos avaliados
+## Modelos avaliados
 
 Diferentemente de Venkit et al. 2023, que avaliaram modelos e ferramentas em inglês, este trabalho utiliza **modelos específicos para português brasileiro**.
 
-### 4.1 Tarefa de sentimento
+### Tarefa de sentimento
 
 - **BERTweet-PT**
 
-### 4.2 Tarefa de toxicidade
+### Tarefa de toxicidade
 
 - **BERTimbau toxic classifier**
 - **ToxiGuardrail-PT**
