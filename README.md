@@ -145,7 +145,11 @@ Diferentemente de Venkit et al. 2023, que avaliaram modelos e ferramentas em ing
 Essa escolha foi necessária para que a auditoria refletisse o comportamento de modelos aplicáveis ao contexto linguístico do português.
 
 ---
+## Protocolo de Avaliação
 
+Para mensurar a sensibilidade de modelos à menção de termos relacionados à deficiência em português brasileiro, adotou-se um protocolo de avaliação baseado em *Perturbation Sensitivity Analysis* (PSA), conforme proposto em Venkit et al. (2023). A metodologia aplicada pode ser consultada na íntegra em: [Protocolo de Avaliação](./Protocolo_Avaliação.pdf)
+
+---
 
 ##  Perturbation Sensitivity Analysis (PSA)
 
